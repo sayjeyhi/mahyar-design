@@ -53,6 +53,14 @@ module.exports = {
         }
       }
     },
+    {
+      use: '@gridsome/plugin-critical',
+      options: {
+        paths: ['/'],
+        width: 1920,
+        height: 1080
+      }
+    },
   ],
   transformers: {
     remark: {
