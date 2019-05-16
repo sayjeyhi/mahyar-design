@@ -35,11 +35,11 @@ fields:
     color_format: Hex
   label: Foreground color
 pages:
-- projects/pwd.md
 - projects/carleudd.md
-- projects/gitgud.md
-- projects/tcg.md
 - projects/blog-api.md
-- projects/quizmaster.md
 - projects/lillafrö.md
 - projects/code-snippets.md
+- projects/pwd.md
+- projects/gitgud.md
+- projects/tcg.md
+- projects/quizmaster.md
