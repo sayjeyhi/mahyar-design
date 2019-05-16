@@ -23,12 +23,13 @@ query Posts {
       }
     }
   },
-  journals: allJournalPost (perPage: 3) {
-    edges {
+  journals: allJournalPost (perPage:3 sortBy: "date", order: DESC) {
+    edges{ 
       node {
         id
         path
         title
+        date
       }
     }
   }
