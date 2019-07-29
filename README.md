@@ -1,6 +1,7 @@
 <p align="center">
   <img alt="popping badge" src="https://api.netlify.com/api/v1/badges/a40e2623-3ac0-49ef-8b24-9e988c6d56a9/deploy-status" />
-  <a href="https://greenkeeper.io/"><img alt="greenkeeper badge" src="https://badges.greenkeeper.io/LokeCarlsson/loke.dev.svg" /></a>
+  <img alt="circleci badge" src="https://circleci.com/gh/LokeCarlsson/loke.dev/tree/develop.svg?style=svg" />
+  <img alt="greenkeeper badge" src="https://badges.greenkeeper.io/LokeCarlsson/loke.dev.svg" />
   <a href="https://codebeat.co/projects/github-com-lokecarlsson-loke-dev-develop"><img alt="codebeat badge" src="https://codebeat.co/badges/a749db3c-5abd-46aa-91ca-a2c51275ab43" /></a>
   <img alt="popping badge" src="https://img.shields.io/hackage-deps/v/lens.svg" />
   <img alt="version badge" src="https://img.shields.io/badge/version-3.0.0-blue.svg?style=flat-square" />
