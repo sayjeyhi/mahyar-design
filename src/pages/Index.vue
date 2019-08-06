@@ -15,7 +15,7 @@ query Posts {
     edges {
       node {
         id
-        date (format: "D. MMMM YYYY")
+        date
         title
         categories
         thumbnail (quality: 90)
@@ -24,7 +24,7 @@ query Posts {
     }
   },
   journals: allJournalPost (perPage:3 sortBy: "date", order: DESC) {
-    edges{ 
+    edges{
       node {
         id
         path
