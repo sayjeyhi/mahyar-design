@@ -3,9 +3,8 @@
   <img alt="circleci badge" src="https://circleci.com/gh/LokeCarlsson/loke.dev/tree/develop.svg?style=svg" />
   <img alt="greenkeeper badge" src="https://badges.greenkeeper.io/LokeCarlsson/loke.dev.svg" />
   <a href="https://codebeat.co/projects/github-com-lokecarlsson-loke-dev-develop"><img alt="codebeat badge" src="https://codebeat.co/badges/a749db3c-5abd-46aa-91ca-a2c51275ab43" /></a>
-  <img alt="popping badge" src="https://img.shields.io/hackage-deps/v/lens.svg" />
-  <img alt="version badge" src="https://img.shields.io/badge/version-3.0.0-blue.svg?style=flat-square" />
   <img src="https://img.shields.io/npm/l/vue.svg" alt="License">
+  <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Prettier">
 </p>
 <p align="center"><a href="https://loke.dev"><img alt="logo" src="https://user-images.githubusercontent.com/14079937/51091134-77887980-1786-11e9-9b49-173fca1762d2.png" /></a></p>
 <p align="center">Portfolio / Blog</p>
