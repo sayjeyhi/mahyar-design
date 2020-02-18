@@ -696,10 +696,10 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.24"
 
-"@fortawesome/vue-fontawesome@^0.1.5":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-0.1.7.tgz#121867297cafd141af78c67d92ab9f1ad4b7328b"
-  integrity sha512-YCw2Q2m4fxzyFsPOH3uDYMoJztTD+pT+AAyse4LFpbdrBg+r8ueaVT8BFnXEjrGwMDJJeXrwJ5AOC6q/JWBI4w==
+"@fortawesome/vue-fontawesome@0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-0.1.8.tgz#615347c56d285eb634315f59fe4f4156e4eee8b4"
+  integrity sha512-SdFiUD+vFDA/xKuEbnQTVrK8FDxoV0eyQaiHxmCcjAc0+vQe0Kf6oGm28opNPIt8MTgKWR3+Yg3xXP455Ae4tQ==
 
 "@gridsome/cli@^0.3.0":
   version "0.3.0"
@@ -739,7 +739,7 @@
   dependencies:
     vue-analytics "^5.16.1"
 
-"@gridsome/plugin-sitemap@^0.2.1":
+"@gridsome/plugin-sitemap@0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@gridsome/plugin-sitemap/-/plugin-sitemap-0.2.2.tgz#3727db503dbe4125a4db7dcb0b65f602b13786e6"
   integrity sha512-PA8BzdNruSkWPgpW/F5xGCBTQbjk5GOX3dmH2eWeoYmyGPx46vGOPXNScgLHdAR4ragwlwVUi4kEPGl2MfA8nA==
@@ -772,10 +772,10 @@
     mime-types "^2.1.21"
     slash "^2.0.0"
 
-"@gridsome/transformer-remark@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@gridsome/transformer-remark/-/transformer-remark-0.4.0.tgz#7b03481e6be5064984fcacc6832693c766745a4d"
-  integrity sha512-rGtZisA0FYg0oaruT50YYtpPLgZobpnRLiH8BYTtT3PGMPIdC618emuRxfY9U3zXCUX2N4uO1JcZzcPVOmClxg==
+"@gridsome/transformer-remark@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gridsome/transformer-remark/-/transformer-remark-0.5.0.tgz#e872e91edc316205c507533395b8f1bc985185a1"
+  integrity sha512-uTVkc4BbQIuo9KzA4nchHhADHznLLyMXCTwSZ238xG2f5QWcsLtQRuPnKBID0nFx+9U6nvRE5YoC4FF2DBDU2A==
   dependencies:
     gray-matter "^4.0.2"
     hash-sum "^1.0.2"
