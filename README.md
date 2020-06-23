@@ -78,8 +78,8 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-* Beer raised to anyone who's code was used
+* Beer raised to anyone who's code was used.
