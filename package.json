@@ -16,7 +16,7 @@
     "@gridsome/plugin-sitemap": "0.2.2",
     "@gridsome/source-filesystem": "^0.6.0",
     "@gridsome/transformer-remark": "^0.6.0",
-    "gridsome": "^0.7.5",
+    "gridsome": "^0.7.19",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.0.0",
     "v-tooltip": "^2.0.0-rc.33",
