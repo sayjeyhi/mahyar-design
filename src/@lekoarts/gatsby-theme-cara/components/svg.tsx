@@ -121,7 +121,22 @@ const icons = {
   },
 }
 
-type IconType = "triangle" | "circle" | "arrowUp" | "upDown" | "box" | "hexa" | "cross" | "gmail"
+type IconType = "triangle"
+  | "circle"
+  | "arrowUp"
+  | "upDown"
+  | "box"
+  | "hexa"
+  | "cross"
+  | "gmail"
+  | "gitlab"
+  | "github"
+  | "facebook"
+  | "twitter"
+  | "slack"
+  | "linkedin"
+  | "messenger"
+  | "instagram"
 
 type SVGProps = {
   stroke?: boolean
