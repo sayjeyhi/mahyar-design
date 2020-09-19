@@ -12,7 +12,7 @@ import ContactMDX from "../sections/contact"
 
 const InnerWave = styled.div`
   path {
-    ${waveAnimation(`20s`)};
+    ${waveAnimation(`15s`)};
   }
 `
 
@@ -27,14 +27,14 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
                 attributeName="d"
                 values="M 0 100 Q 250 50 400 200 Q 550 350 800 300 L 800 0 L 0 0 L 0 100 Z;M 0 100 Q 200 150 400 200 Q 600 250 800 300 L 800 0 L 0 0 L 0 100 Z;M 0 100 Q 150 350 400 200 Q 650 50 800 300 L 800 0 L 0 0 L 0 100 Z"
                 repeatCount="indefinite"
-                dur="30s"
+                dur="3s"
               />
             </path>
           </svg>
         </InnerWave>
       </div>
     </Divider>
-    <Content speed={0.4} offset={offset} factor={factor}>
+    <Content speed={0.5} offset={offset} factor={factor}>
       <Inner>
         <ContactMDX />
       </Inner>
@@ -42,16 +42,16 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
     </Content>
     <Divider speed={0.1} offset={offset} factor={factor}>
       <UpDown>
-        <SVG icon="gmail" hiddenMobile width={8} color="icon_brightest" left="70%" top="20%" />
-        <SVG icon="gitlab" width={8} stroke color="icon_darkest" left="25%" top="5%" />
+        <SVG icon="gmail" hiddenMobile width={8} color="icon_darkest" left="70%" top="20%" />
+        <SVG icon="twitter" width={12} stroke color="icon_darkest" left="25%" top="5%" />
       </UpDown>
       <UpDownWide>
-        <SVG icon="twitter" width={12} stroke color="icon_brightest" left="90%" top="50%" />
+        <SVG icon="gitlab" width={8} stroke color="icon_darkest" left="30%" top="60%" />
         <SVG icon="facebook" width={8} color="icon_darkest" left="85%" top="15%" />
         <SVG icon="slack" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" />
       </UpDownWide>
-      <SVG icon="github" width={12} color="icon_brightest" left="4%" top="60%" />
-      <SVG icon="linkedin" width={6} color="icon_brightest" left="4%" top="20%" />
+      <SVG icon="github" width={12} color="icon_darkest" left="4%" top="60%" />
+      <SVG icon="linkedin" width={6} color="icon_darkest" left="4%" top="20%" />
       <SVG icon="messenger" width={12} color="icon_darkest" left="70%" top="60%" />
       <SVG icon="instagram" width={12} color="icon_darkest" left="20%" top="30%" />
     </Divider>

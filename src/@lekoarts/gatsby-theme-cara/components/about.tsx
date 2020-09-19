@@ -36,7 +36,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <SVG icon="box" width={12} color="icon_darkest" left="20%" top="30%" />
       <SVG icon="hexa" width={8} stroke color="icon_darkest" left="80%" top="70%" />
     </Divider>
-    <Content speed={0.4} offset={offset} factor={factor}>
+    <Content speed={0.1} offset={offset} factor={factor}>
       <Inner>
         <AboutMDX />
       </Inner>
