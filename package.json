@@ -5,13 +5,15 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
-    "dev:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
-    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@iconify/icons-cib": "^1.0.3",
+    "@iconify/icons-logos": "^1.0.12",
+    "@iconify/icons-simple-icons": "^1.0.49",
+    "@iconify/react": "^1.1.3",
     "@lekoarts/gatsby-theme-cara": "^1.2.13",
     "gatsby": "^2.20.36",
     "gatsby-plugin-google-analytics": "^2.1.8",

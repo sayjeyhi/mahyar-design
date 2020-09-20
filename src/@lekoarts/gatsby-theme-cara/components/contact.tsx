@@ -42,7 +42,7 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
     </Content>
     <Divider speed={0.1} offset={offset} factor={factor}>
       <UpDown>
-        <SVG icon="gmail" hiddenMobile width={8} color="icon_darkest" left="70%" top="20%" />
+        <SVG icon="gmail" hiddenMobile width={8} color="icon_darkest" left="70%" top="30%" />
         <SVG icon="twitter" width={12} stroke color="icon_darkest" left="25%" top="5%" />
       </UpDown>
       <UpDownWide>
