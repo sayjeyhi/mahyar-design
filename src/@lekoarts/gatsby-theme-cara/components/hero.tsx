@@ -19,10 +19,18 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         top="5%"
       />
       <Icon
+        icon="html"
+        color="icon_darkest"
+        width="3rem"
+        left="15%"
+        top="70%"
+      />
+      <Icon
         icon="gridsome"
         width="6rem"
         left="40%"
         top="70%"
+        hiddenMobile
       />
       <Icon
         icon="vue"
@@ -50,6 +58,13 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           left="60%"
           top="50%"
           hiddenMobile
+        />
+        <Icon
+          icon="linux"
+          color="icon_darkest"
+          width="4rem"
+          left="90%"
+          top="80%"
         />
       </UpDown>
       <UpDownWide>

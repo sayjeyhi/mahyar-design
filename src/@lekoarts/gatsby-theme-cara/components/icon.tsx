@@ -12,6 +12,8 @@ import gridsome from '@iconify/icons-logos/gridsome-icon';
 import javascript from '@iconify/icons-logos/javascript';
 import git from '@iconify/icons-cib/git';
 import css from '@iconify/icons-cib/css3';
+import html from '@iconify/icons-cib/html5';
+import linux from '@iconify/icons-logos/linux-tux';
 
 type SVGProps = {
   stroke?: boolean
@@ -32,7 +34,9 @@ type IconType =
   "gridsome" |
   "javascript" |
   "git" |
-  "css"
+  "css" |
+  "html" |
+  "linux"
 
 const icons = {
   gatsby,
@@ -44,6 +48,8 @@ const icons = {
   javascript,
   git,
   css,
+  html,
+  linux,
 }
 
 const Icon = ({ color = `currentColor`, width, icon, left, top, hiddenMobile = false }: SVGProps) => (
