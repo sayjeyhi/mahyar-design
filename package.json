@@ -23,6 +23,7 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@hot-loader/react-dom": "^16.13.0",
     "cross-env": "^5.2.0"
   }
 }
