@@ -30,7 +30,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <UpDownWide>
         <Icon
           icon="typescript"
-          width="14rem"
+          width="6rem"
           left="80%"
           top="10%"
         />
@@ -41,7 +41,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           icon="sass"
           width="8rem"
           left="28%"
-          top="15%"
+          top="10%"
         />
         <SVG icon="circle" width={6} color="icon_darkest" left="75%" top="10%" />
         <SVG icon="upDown" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" />
@@ -50,12 +50,17 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <SVG icon="circle" width={6} color="icon_darkest" left="4%" top="20%" />
       <SVG icon="circle" width={12} color="icon_darkest" left="50%" top="60%" />
       <SVG icon="upDown" width={8} color="icon_darkest" left="95%" top="90%" />
-      <SVG icon="upDown" hiddenMobile width={24} color="icon_darker" left="40%" top="80%" />
+      <Icon
+          icon="gridsome"
+          width="8rem"
+          left="40%"
+          top="75%"
+        />
       <SVG icon="triangle" width={8} stroke color="icon_darker" left="25%" top="5%" />
       <SVG icon="circle" width={64} color="icon_green" left="95%" top="5%" />
       <Icon
           icon="vue"
-          width="14rem"
+          width="10rem"
           left="5%"
           top="90%"
         />
