@@ -12,7 +12,7 @@ module.exports = {
     siteUrl: `https://loke.dev`,
     siteDescription: `Portfolio for Loke Carlsson`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/favicon.png`,
     author: `@lokecarlsson`,
   },
   plugins: [
@@ -36,6 +36,7 @@ module.exports = {
         background_color: `#141821`,
         theme_color: `#f6ad55`,
         display: `standalone`,
+        icon: `static/favicon.png`,
       },
     },
     `gatsby-plugin-offline`,
