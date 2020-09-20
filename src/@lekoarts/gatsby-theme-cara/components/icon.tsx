@@ -9,14 +9,9 @@ import typescript from '@iconify/icons-logos/typescript-icon';
 import vue from '@iconify/icons-logos/vue';
 import sass from '@iconify/icons-logos/sass';
 import gridsome from '@iconify/icons-logos/gridsome-icon';
-
-type IconType =
-  "gatsby" |
-  "react" |
-  "typescript" |
-  "vue" |
-  "sass" |
-  "gridsome"
+import javascript from '@iconify/icons-logos/javascript';
+import git from '@iconify/icons-cib/git';
+import css from '@iconify/icons-cib/css3';
 
 type SVGProps = {
   stroke?: boolean
@@ -28,6 +23,17 @@ type SVGProps = {
   hiddenMobile?: boolean
 }
 
+type IconType =
+  "gatsby" |
+  "react" |
+  "typescript" |
+  "vue" |
+  "sass" |
+  "gridsome" |
+  "javascript" |
+  "git" |
+  "css"
+
 const icons = {
   gatsby,
   react,
@@ -35,6 +41,9 @@ const icons = {
   vue,
   sass,
   gridsome,
+  javascript,
+  git,
+  css,
 }
 
 const Icon = ({ color = `currentColor`, width, icon, left, top, hiddenMobile = false }: SVGProps) => (
