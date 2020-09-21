@@ -13,7 +13,14 @@ import javascript from '@iconify/icons-logos/javascript';
 import git from '@iconify/icons-cib/git';
 import css from '@iconify/icons-cib/css3';
 import html from '@iconify/icons-cib/html5';
-import linux from '@iconify/icons-logos/linux-tux';
+import linux from '@iconify/icons-flat-color-icons/linux';
+import github from '@iconify/icons-cib/github';
+import rollup from '@iconify/icons-cib/rollup-js';
+import markdown from '@iconify/icons-cib/markdown';
+import jekyll from '@iconify/icons-cib/jekyll';
+import eslint from '@iconify/icons-cib/eslint';
+import nuxt from '@iconify/icons-logos/nuxt-icon';
+import node from '@iconify/icons-simple-icons/node-dot-js';
 
 type SVGProps = {
   stroke?: boolean
@@ -36,7 +43,14 @@ type IconType =
   "git" |
   "css" |
   "html" |
-  "linux"
+  "linux" |
+  "github" |
+  "rollup" |
+  "markdown" |
+  "jekyll" |
+  "eslint" |
+  "nuxt" |
+  "node"
 
 const icons = {
   gatsby,
@@ -50,6 +64,13 @@ const icons = {
   css,
   html,
   linux,
+  github,
+  rollup,
+  markdown,
+  jekyll,
+  eslint,
+  nuxt,
+  node,
 }
 
 const Icon = ({ color = `currentColor`, width, icon, left, top, hiddenMobile = false }: SVGProps) => (

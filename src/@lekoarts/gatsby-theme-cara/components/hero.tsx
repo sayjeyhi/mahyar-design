@@ -26,8 +26,23 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         top="70%"
       />
       <Icon
+        icon="markdown"
+        color="icon_darkest"
+        width="3rem"
+        left="95%"
+        top="60%"
+        hiddenMobile
+      />
+      <Icon
+        icon="eslint"
+        color="icon_darkest"
+        width="3rem"
+        left="67%"
+        top="105%"
+      />
+      <Icon
         icon="gridsome"
-        width="6rem"
+        width="5rem"
         left="40%"
         top="70%"
         hiddenMobile
@@ -44,6 +59,14 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         left="70%"
         top="15%"
       />
+      <Icon
+          icon="node"
+          color="icon_darkest"
+          width="4rem"
+          left="92%"
+          top="10%"
+          hiddenMobile
+        />
       <UpDown>
         <Icon
           icon="gatsby"
@@ -54,17 +77,31 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         />
         <Icon
           icon="react"
-          width="14rem"
-          left="60%"
+          width="10rem"
+          left="65%"
           top="50%"
-          hiddenMobile
         />
         <Icon
           icon="linux"
-          color="icon_darkest"
-          width="4rem"
+          width="6rem"
           left="90%"
           top="80%"
+          hiddenMobile
+        />
+        <Icon
+          icon="github"
+          color="icon_darkest"
+          width="8rem"
+          left="60%"
+          top="80%"
+        />
+        <Icon
+          icon="jekyll"
+          color="icon_darkest"
+          width="4rem"
+          left="30%"
+          top="80%"
+          hiddenMobile
         />
       </UpDown>
       <UpDownWide>
@@ -72,22 +109,37 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           icon="typescript"
           width="6rem"
           left="80%"
-          top="10%"
+          top="15%"
         />
         <Icon
           icon="sass"
           width="8rem"
           left="28%"
-          top="10%"
+          top="15%"
           hiddenMobile
         />
         <Icon
           icon="css"
           color="icon_darkest"
           width="4rem"
-          left="55%"
+          left="78%"
           top="35%"
+          hiddenMobile
         />
+        <Icon
+          icon="rollup"
+          color="icon_darkest"
+          width="2.5rem"
+          left="3%"
+          top="40%"
+        />
+        <Icon
+        icon="nuxt"
+        width="4rem"
+        left="55%"
+        top="10%"
+        hiddenMobile
+      />
       </UpDownWide>
     </Divider>
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
