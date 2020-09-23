@@ -1,0 +1,153 @@
+/** @jsx jsx */
+import { jsx } from "theme-ui"
+import Divider from "../elements/divider"
+import Inner from "../elements/inner"
+import Content from "../elements/content"
+import Icon from "./icon"
+import { UpDown, UpDownWide } from "../styles/animations"
+// @ts-ignore
+import Intro from "../sections/intro"
+
+const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
+  <div>
+    <Divider speed={0.2} offset={offset} factor={factor}>
+      <Icon
+        icon="git"
+        color="icon_darkest"
+        width="4rem"
+        left="50%"
+        top="5%"
+      />
+      <Icon
+        icon="html"
+        color="icon_darkest"
+        width="3rem"
+        left="15%"
+        top="70%"
+      />
+      <Icon
+        icon="markdown"
+        color="icon_darkest"
+        width="3rem"
+        left="95%"
+        top="60%"
+        hiddenMobile
+      />
+      <Icon
+        icon="eslint"
+        color="icon_darkest"
+        width="3rem"
+        left="67%"
+        top="105%"
+      />
+      <Icon
+        icon="gridsome"
+        width="5rem"
+        left="40%"
+        top="70%"
+        hiddenMobile
+      />
+      <Icon
+        icon="vue"
+        width="10rem"
+        left="5%"
+        top="92%"
+      />
+      <Icon
+        icon="javascript"
+        width="4rem"
+        left="70%"
+        top="15%"
+      />
+      <Icon
+          icon="node"
+          color="icon_darkest"
+          width="4rem"
+          left="92%"
+          top="10%"
+          hiddenMobile
+        />
+      <UpDown>
+        <Icon
+          icon="gatsby"
+          width="12rem"
+          left="5%"
+          top="3%"
+          color="#663399"
+        />
+        <Icon
+          icon="react"
+          width="10rem"
+          left="65%"
+          top="50%"
+        />
+        <Icon
+          icon="linux"
+          width="6rem"
+          left="90%"
+          top="80%"
+          hiddenMobile
+        />
+        <Icon
+          icon="github"
+          color="icon_darkest"
+          width="8rem"
+          left="60%"
+          top="80%"
+        />
+        <Icon
+          icon="jekyll"
+          color="icon_darkest"
+          width="4rem"
+          left="30%"
+          top="80%"
+          hiddenMobile
+        />
+      </UpDown>
+      <UpDownWide>
+        <Icon
+          icon="typescript"
+          width="6rem"
+          left="80%"
+          top="10%"
+        />
+        <Icon
+          icon="sass"
+          width="8rem"
+          left="28%"
+          top="2%"
+          hiddenMobile
+        />
+        <Icon
+          icon="css"
+          color="icon_darkest"
+          width="4rem"
+          left="78%"
+          top="35%"
+          hiddenMobile
+        />
+        <Icon
+          icon="rollup"
+          color="icon_darkest"
+          width="2.5rem"
+          left="3%"
+          top="40%"
+        />
+        <Icon
+        icon="nuxt"
+        width="4rem"
+        left="55%"
+        top="20%"
+        hiddenMobile
+      />
+      </UpDownWide>
+    </Divider>
+    <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
+      <Inner>
+        <Intro />
+      </Inner>
+    </Content>
+  </div>
+)
+
+export default Hero
