@@ -26,7 +26,7 @@ const theme = merge(tailwind, {
       light: {
         text: tailwind.colors.gray[8],
         heading: tailwind.colors.black,
-        primary: tailwind.colors.orange[7],
+        primary: `#29A196`,
         background: tailwind.colors.gray[1],
         divider: tailwind.colors.gray[2],
         textMuted: tailwind.colors.gray[6],

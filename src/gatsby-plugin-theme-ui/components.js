@@ -1,5 +1,5 @@
 import React from "react"
-import ProjectCard from "../components/project-card"
+import ProjectCard from "../@lekoarts/gatsby-theme-cara/components/project-card"
 
 const components = {
   // eslint-disable-next-line react/display-name
