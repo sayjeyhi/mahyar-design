@@ -72,7 +72,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           icon="gatsby"
           width="12rem"
           left="5%"
-          top="5%"
+          top="3%"
           color="#663399"
         />
         <Icon
@@ -109,13 +109,13 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           icon="typescript"
           width="6rem"
           left="80%"
-          top="15%"
+          top="10%"
         />
         <Icon
           icon="sass"
           width="8rem"
           left="28%"
-          top="15%"
+          top="2%"
           hiddenMobile
         />
         <Icon
@@ -137,7 +137,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         icon="nuxt"
         width="4rem"
         left="55%"
-        top="10%"
+        top="20%"
         hiddenMobile
       />
       </UpDownWide>
