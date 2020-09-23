@@ -43,12 +43,12 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
     <Divider speed={0.1} offset={offset} factor={factor}>
       <UpDown>
         <SVG icon="gmail" hiddenMobile width={8} color="icon_darkest" left="70%" top="30%" />
-        <SVG icon="twitter" width={12} stroke color="icon_darkest" left="25%" top="5%" />
+        <SVG icon="twitter" width={12} stroke color="icon_darkest" left="45%" top="10%" />
       </UpDown>
       <UpDownWide>
-        <SVG icon="gitlab" width={8} stroke color="icon_darkest" left="30%" top="60%" />
+        <SVG icon="gitlab" hiddenMobile width={8} stroke color="icon_darkest" left="30%" top="60%" />
         <SVG icon="facebook" width={8} color="icon_darkest" left="85%" top="15%" />
-        <SVG icon="slack" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" />
+        <SVG icon="slack" hiddenMobile width={8} color="icon_darkest" left="25%" top="5%" />
       </UpDownWide>
       <SVG icon="github" width={12} color="icon_darkest" left="4%" top="60%" />
       <SVG icon="linkedin" width={6} color="icon_darkest" left="4%" top="20%" />

@@ -19,6 +19,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           width="4rem"
           left="50%"
           top="5%"
+          hiddenMobile
         />
         <Icon
           icon="html"
@@ -26,6 +27,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           width="3rem"
           left="15%"
           top="70%"
+          hiddenMobile
         />
         <Icon
           icon="markdown"
@@ -41,6 +43,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           width="3rem"
           left="67%"
           top="105%"
+          hiddenMobile
         />
         <Icon
           icon="gridsome"
@@ -54,12 +57,14 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           width="10rem"
           left="5%"
           top="92%"
+          hiddenMobile
         />
         <Icon
           icon="javascript"
           width="4rem"
           left="70%"
           top="15%"
+          hiddenMobile
         />
         <Icon
             icon="node"
@@ -85,6 +90,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
             width="8rem"
             left="60%"
             top="80%"
+            hiddenMobile
           />
           <Icon
             icon="jekyll"
@@ -99,6 +105,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
             width="10rem"
             left="65%"
             top="50%"
+            hiddenMobile
           />
           <Icon
             icon="gatsby"
@@ -106,6 +113,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
             left="5%"
             top="3%"
             color="#663399"
+            hiddenMobile
           />
           </Fade>
         </UpDown>
@@ -125,6 +133,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
             width="2.5rem"
             left="3%"
             top="40%"
+            hiddenMobile
           />
           <Icon
             icon="sass"
@@ -138,6 +147,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
             width="6rem"
             left="80%"
             top="10%"
+            hiddenMobile
           />
           <Icon
             icon="nuxt"

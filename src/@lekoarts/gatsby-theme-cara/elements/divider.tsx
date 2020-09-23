@@ -2,6 +2,7 @@
 import React from "react"
 import { jsx } from "theme-ui"
 import { ParallaxLayer } from "react-spring/renderprops-addons.cjs"
+import { hidden } from "../styles/utils"
 
 type DividerProps = {
   speed: number
@@ -12,6 +13,7 @@ type DividerProps = {
   clipPath?: string
   className?: string
   factor?: number
+  hiddenMobile?: boolean
 }
 
 const Divider = ({
@@ -23,10 +25,12 @@ const Divider = ({
   clipPath = ``,
   children = null,
   className = ``,
+  hiddenMobile = false,
 }: DividerProps) => (
   <ParallaxLayer
     sx={{
       position: `absolute`,
+      display: hiddenMobile ? hidden : `block`,
       width: `full`,
       height: `full`,
       background: bg,
