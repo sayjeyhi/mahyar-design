@@ -1,13 +1,10 @@
 <p align="center">
   <img alt="popping badge" src="https://api.netlify.com/api/v1/badges/a40e2623-3ac0-49ef-8b24-9e988c6d56a9/deploy-status" />
-  <img alt="greenkeeper badge" src="https://badges.greenkeeper.io/LokeCarlsson/loke.dev.svg" />
   <a href="https://codebeat.co/projects/github-com-lokecarlsson-loke-dev-develop"><img alt="codebeat badge" src="https://codebeat.co/badges/a749db3c-5abd-46aa-91ca-a2c51275ab43" /></a>
   <img src="https://img.shields.io/npm/l/vue.svg" alt="License">
   <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Prettier">
 </p>
 <p align="center"><a href="https://loke.dev"><img alt="logo" src="https://user-images.githubusercontent.com/14079937/51091134-77887980-1786-11e9-9b49-173fca1762d2.png" /></a></p>
-<p align="center">Portfolio / Blog</p>
-<p align="center"><a href="https://vuejs.org" target="_blank"><img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo"></a></p>
 
 ## Getting Started
 
@@ -56,12 +53,6 @@ Get started right away by importing this project and setup your own installment 
 ## Running the tests
 
 Soon..
-
-## Built With
-
-* [Vue.js](https://vuejs.org/) - Javascript Framework
-* [Gridsome](https://gridsome.org/) - Static Site Generator
-* [Forestry](https://forestry.io/) - CMS
 
 ## Contributing
 
