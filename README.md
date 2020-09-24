@@ -1,6 +1,5 @@
 <p align="center">
   <img alt="popping badge" src="https://api.netlify.com/api/v1/badges/a40e2623-3ac0-49ef-8b24-9e988c6d56a9/deploy-status" />
-  <a href="https://codebeat.co/projects/github-com-lokecarlsson-loke-dev-develop"><img alt="codebeat badge" src="https://codebeat.co/badges/a749db3c-5abd-46aa-91ca-a2c51275ab43" /></a>
   <img src="https://img.shields.io/npm/l/vue.svg" alt="License">
   <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Prettier">
 </p>
