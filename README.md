@@ -40,6 +40,10 @@ yarn build
 
 Using Netlify to automatically build and deploy from the Github repo.
 
+  <a href="https://www.netlify.com">
+    <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" alt="Deploys by Netlify" />
+  </a>
+
 ## Forestry
 
 Get started right away by importing this project and setup your own installment of the cms and importing all data.
