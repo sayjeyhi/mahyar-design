@@ -55,7 +55,7 @@ Get started right away by importing this project and setup your own installment 
 
 ## Running the tests
 
-Soon..
+Soon...
 
 ## Contributing
 
