@@ -4,11 +4,11 @@ excerpt: Netlify offers some sophisticated features to make static site form sub
   a breeze.
 date: 2019-11-04 18:00:00 +0000
 author: Loke Carlsson
-
+bg: "linear-gradient(150deg, #0439af 0%,#3dd1e8 100%);"
 ---
 In order for us to implement the forms we need to first start by adding the form to our template tag:
 
-  
+
 
     <form
         name="contact"
@@ -34,7 +34,7 @@ In order for us to implement the forms we need to first start by adding the form
           <input type="email" name="email" v-model="formData.email" />
         </div>
       </div>
-      
+
       <div class="message-wrapper">
         <label for="message">Message</label>
         <textarea name="message" v-model="formData.message"></textarea>
@@ -42,13 +42,13 @@ In order for us to implement the forms we need to first start by adding the form
       <button type="submit">Submit form</button>
     </form>
 
-  
+
 
 We have also included a honeypot input that will lure bots that are trying to send us spam, into filling out a special hidden field that will be caught by Netlify and automatically being rejected.
 
 Next step is to add our \`formData\` variable that will hold our data that will be sent to Netlify, this is binded to our inputs to automatically update \`formData\` when the input is changed.
 
- 
+
 
     data() {
       return {
@@ -56,15 +56,15 @@ Next step is to add our \`formData\` variable that will hold our data that will 
       }
     }
 
- 
+
 
 Last step is to add our submit handler to send the data to Netlify. This is done by listening to the form submit action and using fetch to post the data in \`formData\`. We also have a encode method that will make sure our data is properly formatted when we post it.
 
- 
+
 
 In this example shown below we are redirecting the user to the route \`/success\` if the post was successful, this can be changed into any action you want. But in this case you need to make sure you have a page setup on that route to present a success message for the user.
 
- 
+
 
     methods: {
       encode(data) {
@@ -86,6 +86,6 @@ In this example shown below we are redirecting the user to the route \`/success\
       }
     }
 
- 
+
 
 Read more: [https://www.netlify.com/docs/form-handling/](https://www.netlify.com/docs/form-handling/ "https://www.netlify.com/docs/form-handling/")

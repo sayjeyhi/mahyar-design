@@ -3,7 +3,7 @@ date: 2019-01-03 23:00:00 +0000
 title: Gridsome with Forestry CMS and Netlify.
 author: Loke Carlsson
 excerpt: Gridsome is the Vue.js alternative to Gatsby.
-
+bg: "linear-gradient(150deg, #D4145A 0%, #FBB03B 100%)"
 ---
 #### What is Gridsome?
 

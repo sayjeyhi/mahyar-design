@@ -21,6 +21,7 @@ import jekyll from '@iconify/icons-cib/jekyll';
 import eslint from '@iconify/icons-cib/eslint';
 import nuxt from '@iconify/icons-logos/nuxt-icon';
 import node from '@iconify/icons-simple-icons/node-dot-js';
+import close from '@iconify/icons-bytesize/close';
 
 type SVGProps = {
   stroke?: boolean
@@ -50,7 +51,8 @@ type IconType =
   "jekyll" |
   "eslint" |
   "nuxt" |
-  "node"
+  "node" |
+  "close"
 
 const icons = {
   gatsby,
@@ -71,6 +73,7 @@ const icons = {
   eslint,
   nuxt,
   node,
+  close,
 }
 
 const Icon = ({ color = `currentColor`, width, icon, left, top, hiddenMobile = false }: SVGProps) => (

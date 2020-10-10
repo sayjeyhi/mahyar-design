@@ -24,7 +24,6 @@ const Divider = ({
   fill = ``,
   clipPath = ``,
   children = null,
-  className = ``,
   hiddenMobile = false,
 }: DividerProps) => (
   <ParallaxLayer
@@ -44,7 +43,6 @@ const Divider = ({
     speed={speed}
     offset={offset}
     factor={factor}
-    className={className}
   >
     {children}
   </ParallaxLayer>

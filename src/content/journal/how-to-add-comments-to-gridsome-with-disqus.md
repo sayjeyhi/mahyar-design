@@ -4,7 +4,7 @@ excerpt: Adding comments to a static site can be easy and Disqus is a great alte
   that add loads into your site externally as an iframe.
 date: 2019-10-31 23:00:00 +0000
 author: Loke Carlsson
-
+bg: "linear-gradient(150deg, #009245 0%, #a79c00 100%)"
 ---
 # How to add comments to Gridsome with Disqus
 
@@ -16,7 +16,7 @@ First step is to sign up for an account on [https://disqus.com/](https://disqus.
 
 Complete the setup of your site and take note of your _Shortname_ because this will be used later.
 
-  
+
 ![](https://i.imgur.com/Ui1aoYi.png)
 
 #### Install vue-disqus
@@ -32,7 +32,7 @@ or with npm
 After it has been added to your package.json and installed you need to import vue-disqus in your \`main.js\` which is located directly in the \`src\` directory, and added to the vue instance.
 
     import VueDisqus from 'vue-disqus'
-    
+
     export default function (Vue, { head })  {
     	Vue.use(VueDisqus)
     }

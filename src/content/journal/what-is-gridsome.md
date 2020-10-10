@@ -3,7 +3,7 @@ author: Loke Carlsson
 title: What is Gridsome?
 excerpt: What Gatsby.js does for React.js is a game changer in how we build websites.
 date: 2019-03-10 23:00:00 +0000
-
+bg: "linear-gradient(150deg, #5903ce 0%,#e856ea 100%)"
 ---
 #### What is Gridsome?
 
@@ -23,7 +23,7 @@ Here is an example on how to query posts from the GraphQL layer in a page:
         </ul>
       </Layout>
     </template>
-    
+
     <page-query>
     query Blog {
       allWordPressPost (limit: 5) {
