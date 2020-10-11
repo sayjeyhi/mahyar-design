@@ -3,10 +3,8 @@ author: Loke Carlsson
 title: What is Gridsome?
 excerpt: What Gatsby.js does for React.js is a game changer in how we build websites.
 date: 2019-03-10 23:00:00 +0000
-bg: "linear-gradient(150deg, #5903ce 0%,#e856ea 100%)"
+bg: "linear-gradient(150deg,#7714fd 0%,#ff25b2 100%)"
 ---
-#### What is Gridsome?
-
 What Gatsby.js does for React.js is a game changer in how we build websites.  React.js is excellent, but I think Vue.js is more approachable for most web designers and devs getting started with JAMstack. Gridsome is the Vue.js alternative to Gatsby.
 
 With [**Gridsome**](https://gridsome.org/ "Gridsome") you get a **universal GraphQL layer** for all your connected data sources. It's like a single source of truth for your website data ready to be used in any page or components. Connect to any CMS or APIs like Google Spreadsheet, Airtable, Instagram Feed, local markdown files, etc.

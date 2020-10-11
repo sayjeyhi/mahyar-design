@@ -27,8 +27,6 @@ const Home = ({ data }: any) => {
     frontmatter: node.frontmatter,
   }))
 
-  console.log(journalPosts);
-
   return (
   <Layout>
     <Parallax pages={4}>

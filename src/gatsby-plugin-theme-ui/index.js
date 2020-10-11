@@ -1,5 +1,6 @@
 import { merge } from "theme-ui"
 import { tailwind } from "@theme-ui/presets"
+import nightOwl from "@theme-ui/prism/presets/night-owl"
 
 const theme = merge(tailwind, {
   initialColorModeName: `dark`,
@@ -22,6 +23,7 @@ const theme = merge(tailwind, {
     icon_pink: tailwind.colors.pink[5],
     icon_purple: tailwind.colors.purple[6],
     icon_green: tailwind.colors.green[5],
+    gradient: "linear-gradient(150deg,#29A196 0%,#4dd2e6 100%)",
     modes: {
       light: {
         text: tailwind.colors.gray[8],
@@ -65,6 +67,14 @@ const theme = merge(tailwind, {
           textDecoration: `none`,
         },
       },
+    },
+    pre: {
+      ...nightOwl,
+    },
+    a: {
+      background: "linear-gradient(150deg,#1aefe2 0%,#e357fd 100%)",
+      WebkitTextFillColor: "transparent",
+      WebkitBackgroundClip: "text",
     },
     p: {
       fontSize: [1, 2],

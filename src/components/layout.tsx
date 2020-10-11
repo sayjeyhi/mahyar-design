@@ -29,6 +29,7 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
         pre: {
           fontFamily: `monospace`,
           fontSize: `1em`,
+          whiteSpace: "break-spaces",
         },
         "[hidden]": {
           display: `none`,
@@ -36,6 +37,19 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
         "::selection": {
           backgroundColor: theme.colors.primary,
           color: theme.colors.background,
+        },
+        ".ReactModal__Overlay": {
+          backgroundColor: "rgba(0, 0, 0, 0.75) !important"
+        },
+        ".ReactModal__Content": {
+          top: "8rem !important",
+          right: "8rem !important",
+          left: "8rem !important",
+          bottom: "8rem !important",
+          borderRadius: "0.5rem !important",
+          backgroundColor: theme.colors.background + "!important",
+          border: "none !important",
+          padding: "0.5rem !important",
         },
       })}
     />

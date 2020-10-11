@@ -4,7 +4,7 @@ excerpt: Netlify offers some sophisticated features to make static site form sub
   a breeze.
 date: 2019-11-04 18:00:00 +0000
 author: Loke Carlsson
-bg: "linear-gradient(150deg, #0439af 0%,#3dd1e8 100%);"
+bg: "linear-gradient(150deg,#1248ff 0%,#4dd2e6 100%)"
 ---
 In order for us to implement the forms we need to first start by adding the form to our template tag:
 

@@ -4,9 +4,9 @@ excerpt: JAM stands for JavaScript, API, Markup and is the future way of creatin
   websites.
 date: 2019-05-06T22:00:00.000+00:00
 author: Loke Carlsson
-bg: "linear-gradient(150deg, #ed64a6 0%,#a73d14 100%);"
+bg: "linear-gradient(150deg, #ed64a6 0%,#a73d14 100%)"
 ---
-![JAMstack](/uploads/Jamstackcard.png "JAMstack")
+![JAMstack](./Jamstackcard.png "JAMstack")
 
 <br><br>
 
