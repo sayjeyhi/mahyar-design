@@ -10,7 +10,7 @@ What Gatsby.js does for React.js is a game changer in how we build websites.  Re
 With [**Gridsome**](https://gridsome.org/ "Gridsome") you get a **universal GraphQL layer** for all your connected data sources. It's like a single source of truth for your website data ready to be used in any page or components. Connect to any CMS or APIs like Google Spreadsheet, Airtable, Instagram Feed, local markdown files, etc.
 
 Here is an example on how to query posts from the GraphQL layer in a page:
-
+```js
     <template>
       <Layout>
         <h2>Latest blog posts</h2>
@@ -34,7 +34,7 @@ Here is an example on how to query posts from the GraphQL layer in a page:
       }
     }
     </page-query>
-
+```
 The GraphQL layer and all the data can be explored in a local GraphQL playground. The playground is usually located at `https://localhost:8080/___explore` when a Gridsome development project is running.
 
 #### Perfect scores on Google Lighthouse - automagically 💚

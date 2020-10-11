@@ -3,6 +3,7 @@ import React from "react"
 import { Global } from "@emotion/core"
 import { jsx } from "theme-ui"
 import SEO from "./seo"
+import oceanicNext from "@theme-ui/prism/presets/oceanic-next"
 
 type LayoutProps = { children: React.ReactNode; className?: string }
 
@@ -30,6 +31,7 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
           fontFamily: `monospace`,
           fontSize: `1em`,
           whiteSpace: "break-spaces",
+          ...oceanicNext,
         },
         "[hidden]": {
           display: `none`,

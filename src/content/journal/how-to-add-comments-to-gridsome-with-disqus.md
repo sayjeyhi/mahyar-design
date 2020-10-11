@@ -22,25 +22,27 @@ Complete the setup of your site and take note of your _Shortname_ because this w
 #### Install vue-disqus
 
 You can use vue-disqus for easier implementation or use disqus directly, but this guide is using vue-disqus.
-
-    yarn add vue-disqus
-
+```bash
+ yarn add vue-disqus
+```
 or with npm
-
-    npm install vue-disqus
-
+```bash
+ npm install vue-disqus
+```
 After it has been added to your package.json and installed you need to import vue-disqus in your \`main.js\` which is located directly in the \`src\` directory, and added to the vue instance.
 
-    import VueDisqus from 'vue-disqus'
+```js
+ import VueDisqus from 'vue-disqus'
 
-    export default function (Vue, { head })  {
-    	Vue.use(VueDisqus)
-    }
+ export default function (Vue, { head }) {
+   Vue.use(VueDisqus)
+ }
+```
 
 Now you are free to use the disqus component anywhere you want, simply use it like this:
-
-    <vue-disqus shortname="mygridsomesite" :identifier="$page.post.title"></vue-disqus>
-
+```js
+ <vue-disqus shortname="mygridsomesite" :identifier="$page.post.title"></vue-disqus>
+```
 You need to provide a _shortname_ which you can find on [https://disqus.com/](https://disqus.com/ "https://disqus.com/") under your site you configured after you signed up. You also need to provide an identifier, in this example we used the blogpost title from the GraphQL query.
 
 Read more: [https://disqus.com/](https://disqus.com/ "https://disqus.com/")
