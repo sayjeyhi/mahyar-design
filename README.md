@@ -1,7 +1,5 @@
 <p align="center">
   <img alt="popping badge" src="https://api.netlify.com/api/v1/badges/a40e2623-3ac0-49ef-8b24-9e988c6d56a9/deploy-status" />
-  <img src="https://img.shields.io/npm/l/vue.svg" alt="License">
-  <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Prettier">
 </p>
 <p align="center"><a href="https://loke.dev"><img alt="logo" src="https://user-images.githubusercontent.com/14079937/51091134-77887980-1786-11e9-9b49-173fca1762d2.png" /></a></p>
 
