@@ -26,7 +26,7 @@ module.exports = {
     `gatsby-plugin-theme-ui`,
     `gatsby-plugin-mdx`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-modal-routing`,
+    `gatsby-plugin-modal-routing-3`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

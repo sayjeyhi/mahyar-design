@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui"
 import { graphql, Link } from "gatsby"
 import { Icon as Iconify } from '@iconify/react';
-import { ModalRoutingContext } from 'gatsby-plugin-modal-routing'
+import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-3'
 import Scrollbar from "react-scrollbars-custom"
 import close from '@iconify/icons-bytesize/close';
 import arrowLeft from '@iconify/icons-bytesize/arrow-left';
