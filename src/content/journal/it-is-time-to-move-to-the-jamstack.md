@@ -6,9 +6,11 @@ date: 2019-05-06T22:00:00.000+00:00
 author: Loke Carlsson
 bg: "linear-gradient(150deg, #ed64a6 0%,#a73d14 100%)"
 ---
-![JAMstack](./Jamstackcard.png "JAMstack")
+<br>
 
-<br><br>
+![JAMstack](https://i.imgur.com/uFkF2MI.png "JAMstack")
+
+<br>
 
 You might have heard the term JAMstack if you're into web development at all. It is similar to the LAMP or MEAN stack, which describes a certain technology stack used in web development. But if you are unsure what it is all about, JAM stands for **J**avaScript, **A**PI, **M**arkup. Some core characteristics of the JAMstack includes:
 
