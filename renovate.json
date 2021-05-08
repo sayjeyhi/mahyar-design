@@ -2,8 +2,8 @@
   "extends": [
     "config:base"
   ],
-  "rangeStrategy": "pin",
   "packageRules": [{
-    "automerge": true
+    "automerge": true,
+    "matchUpdateTypes": ["minor", "patch", "pin", "digest"]
   }]
 }
