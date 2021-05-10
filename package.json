@@ -10,7 +10,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@emotion/styled": "11.1.5",
+    "@emotion/styled": "11.3.0",
     "@iconify/icons-bytesize": "1.1.0",
     "@iconify/icons-cib": "1.1.0",
     "@iconify/icons-flat-color-icons": "1.1.0",
