@@ -1,9 +1,7 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "packageRules": [{
-    "automerge": true,
-    "matchUpdateTypes": ["minor", "patch", "pin", "digest"]
-  }]
+    "extends": [
+        "@bigmichi1",
+        ":automergePatch",
+        ":automergeMinor"
+    ]
 }
