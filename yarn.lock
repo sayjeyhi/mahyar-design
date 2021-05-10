@@ -1495,10 +1495,10 @@
   resolved "https://registry.yarnpkg.com/@iconify/icons-logos/-/icons-logos-1.1.9.tgz#c203026fcae11a2db2b362f1ed6597803a0fe89f"
   integrity sha512-r+++QH2XQdcpxvdmnw8ZDNHclwZpfbWK+azeW97JwhKOhMgNykdtzKKvYGd4m9UrMiX9aK/KjPof49ttKnzXgw==
 
-"@iconify/icons-simple-icons@1.1.16":
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.1.16.tgz#655310ff72203bf8c6346971867597422a834544"
-  integrity sha512-qp880GwFcAnf4gsB6rDQ8lgNtnTSVYlVX1umwgTTNcMkY4JwzOdCNMSOD3yELtrXrx4Fkr5slV13akwd2y2Mxg==
+"@iconify/icons-simple-icons@1.1.24":
+  version "1.1.24"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.1.24.tgz#a8300d8b80b69e54869f6e39f65a3a00c6cd7e40"
+  integrity sha512-V0v8NNO3sC3bFvV9mMYhMjVcYIfOmMzpq6bk9rjWM4+FD7z3M5C6d0FTfWyhIgXirCSqmkoKZGh+UEGBzFmLjg==
 
 "@iconify/react@1.1.4":
   version "1.1.4"
