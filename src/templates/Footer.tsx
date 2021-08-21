@@ -1,13 +1,13 @@
 import Link from 'next/link';
 
-import { Background } from '../background/Background';
-import { CenteredFooter } from '../footer/CenteredFooter';
-import { Section } from '../layout/Section';
+import { Background } from '../components/Background';
+import { CenteredFooter } from '../components/Footer/CenteredFooter';
+import { Section } from '../layouts/Section';
 import { Logo } from './Logo';
 
 const Footer = () => (
-  <Background color="bg-gray-100">
-    <Section>
+  <Background color="bg-gray-100 flex-shrink-0">
+    <Section className="py-16">
       <CenteredFooter
         logo={<Logo />}
         iconList={

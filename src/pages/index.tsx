@@ -1,5 +1,7 @@
-import { Base } from '../templates/Base';
+import React from 'react';
 
-const Index = () => <Base />;
+import { Hero } from '../templates/Hero';
+
+const Index = () => <Hero />;
 
 export default Index;

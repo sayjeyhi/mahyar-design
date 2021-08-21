@@ -43,6 +43,9 @@ module.exports = {
       lineHeight: {
         hero: '4.5rem',
       },
+      flex: {
+        layout: '1 0 auto',
+      },
     },
   },
   variants: {},
