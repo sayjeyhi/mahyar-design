@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   mode: 'jit',
   purge: ['./src/**/*.{js,ts,jsx,tsx}'],
@@ -39,6 +41,8 @@ module.exports = {
           800: '#2d3748',
           900: '#1a202c',
         },
+        teal: colors.teal,
+        cyan: colors.cyan,
       },
       lineHeight: {
         hero: '4.5rem',
@@ -49,5 +53,8 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 };
