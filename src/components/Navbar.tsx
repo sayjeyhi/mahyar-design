@@ -13,9 +13,9 @@ const Navbar = () => {
 
   return (
     <Popover as="header" className="relative">
-      <div className="bg-gray-900 pt-6">
+      <div className="pt-6 bg-gray-900">
         <nav
-          className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
+          className="relative flex items-center justify-between px-4 mx-auto max-w-7xl sm:px-6"
           aria-label="Global"
         >
           <div className="flex items-center flex-1">
@@ -23,15 +23,15 @@ const Navbar = () => {
               <a href="#">
                 <span className="sr-only">Workflow</span>
                 <img
-                  className="h-8 w-auto sm:h-10"
+                  className="w-auto h-8 sm:h-10"
                   src="https://tailwindui.com/img/logos/workflow-mark-teal-200-cyan-400.svg"
                   alt=""
                 />
               </a>
-              <div className="-mr-2 flex items-center md:hidden">
-                <Popover.Button className="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
+              <div className="flex items-center -mr-2 md:hidden">
+                <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-gray-900 rounded-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
-                  <MenuIcon className="h-6 w-6" aria-hidden="true" />
+                  <MenuIcon className="w-6 h-6" aria-hidden="true" />
                 </Popover.Button>
               </div>
             </div>
@@ -56,7 +56,7 @@ const Navbar = () => {
             </a>
             <a
               href="#"
-              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"
+              className="inline-flex items-center px-4 py-2 text-base font-medium text-white bg-gray-600 border border-transparent rounded-md hover:bg-gray-700"
             >
               Start free trial
             </a>
@@ -75,21 +75,21 @@ const Navbar = () => {
       >
         <Popover.Panel
           focus
-          className="absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden"
+          className="absolute inset-x-0 top-0 p-2 transition origin-top transform md:hidden"
         >
-          <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-            <div className="px-5 pt-4 flex items-center justify-between">
+          <div className="overflow-hidden bg-white rounded-lg shadow-md ring-1 ring-black ring-opacity-5">
+            <div className="flex items-center justify-between px-5 pt-4">
               <div>
                 <img
-                  className="h-8 w-auto"
+                  className="w-auto h-8"
                   src="https://tailwindui.com/img/logos/workflow-mark-teal-500-cyan-600.svg"
                   alt=""
                 />
               </div>
               <div className="-mr-2">
-                <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600">
+                <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600">
                   <span className="sr-only">Close menu</span>
-                  <XIcon className="h-6 w-6" aria-hidden="true" />
+                  <XIcon className="w-6 h-6" aria-hidden="true" />
                 </Popover.Button>
               </div>
             </div>
@@ -99,22 +99,22 @@ const Navbar = () => {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
+                    className="block px-3 py-2 text-base font-medium text-gray-900 rounded-md hover:bg-gray-50"
                   >
                     {item.name}
                   </a>
                 ))}
               </div>
-              <div className="mt-6 px-5">
+              <div className="px-5 mt-6">
                 <a
                   href="#"
-                  className="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700"
+                  className="block w-full px-4 py-3 font-medium text-center text-white rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700"
                 >
                   Start free trial
                 </a>
               </div>
-              <div className="mt-6 px-5">
-                <p className="text-center text-base font-medium text-gray-500">
+              <div className="px-5 mt-6">
+                <p className="text-base font-medium text-center text-gray-500">
                   Existing customer?{' '}
                   <a href="#" className="text-gray-900 hover:underline">
                     Login

@@ -6,7 +6,7 @@ import { AppConfig } from '../utils/AppConfig';
 import { Meta } from './Meta';
 
 const Default = ({ children }: any) => (
-  <div className="antialiased text-gray-600 bg-white flex flex-col h-full">
+  <div className="flex flex-col h-full antialiased text-gray-600 bg-white">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Navbar />
     <main className="flex-layout">{children}</main>

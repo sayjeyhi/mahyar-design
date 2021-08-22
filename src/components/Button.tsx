@@ -1,12 +1,12 @@
-import className from 'classnames';
+import cn from 'classnames';
 
-type IButtonProps = {
+type Props = {
   xl?: boolean;
   children: string;
 };
 
-const Button = (props: IButtonProps) => {
-  const btnClass = className({
+const Button = (props: Props) => {
+  const btnClass = cn({
     btn: true,
     'btn-xl': props.xl,
     'btn-base': !props.xl,
