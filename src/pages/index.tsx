@@ -8,7 +8,8 @@ import {
   ServerIcon,
   ShieldCheckIcon,
 } from '@heroicons/react/outline';
-import { ExternalLinkIcon } from '@heroicons/react/solid';
+
+import Link from 'components/Link';
 
 import Hero from '../components/Hero';
 
@@ -119,7 +120,7 @@ const Index = () => {
       <div className="relative pt-16 bg-gray-50 sm:pt-24 lg:pt-32">
         <div className="max-w-md px-4 mx-auto text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
           <div>
-            <h2 className="text-base font-semibold tracking-wider uppercase text-cyan-600">
+            <h2 className="text-base font-semibold tracking-wider uppercase text-primary-red">
               Serverless
             </h2>
             <p className="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -134,7 +135,7 @@ const Index = () => {
           <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
             <img
               className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-              src="https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg"
+              src="https://images.unsplash.com/photo-1597673030062-0a0f1a801a31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
               alt=""
             />
           </div>
@@ -144,7 +145,7 @@ const Index = () => {
       {/* Feature section with grid */}
       <div className="relative py-16 bg-white sm:py-24 lg:py-32">
         <div className="max-w-md px-4 mx-auto text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-          <h2 className="text-base font-semibold tracking-wider uppercase text-cyan-600">
+          <h2 className="text-base font-semibold tracking-wider uppercase text-primary-red">
             Deploy faster
           </h2>
           <p className="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -162,7 +163,7 @@ const Index = () => {
                   <div className="flow-root px-6 pb-8 rounded-lg bg-gray-50">
                     <div className="-mt-6">
                       <div>
-                        <span className="inline-flex items-center justify-center p-3 rounded-md shadow-lg bg-gradient-to-r from-teal-500 to-cyan-600">
+                        <span className="inline-flex items-center justify-center p-3 rounded-md shadow-lg bg-gradient-to-r from-primary-red to-primary-yellow">
                           <feature.icon
                             className="w-6 h-6 text-white"
                             aria-hidden="true"
@@ -185,7 +186,7 @@ const Index = () => {
       </div>
 
       {/* Testimonial section */}
-      <div className="pb-16 bg-gradient-to-r from-teal-500 to-cyan-600 lg:pb-0 lg:z-10 lg:relative">
+      <div className="pb-16 bg-gradient-to-r from-primary-red to-primary-yellow lg:pb-0 lg:z-10 lg:relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
           <div className="relative lg:-my-8">
             <div
@@ -224,7 +225,7 @@ const Index = () => {
                   <p className="text-base font-medium text-white">
                     Judith Black
                   </p>
-                  <p className="text-base font-medium text-cyan-100">
+                  <p className="text-base font-medium text-white">
                     CEO at PureInsights
                   </p>
                 </footer>
@@ -238,7 +239,7 @@ const Index = () => {
       <div className="relative py-16 bg-gray-50 sm:py-24 lg:py-32">
         <div className="relative">
           <div className="max-w-md px-4 mx-auto text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-            <h2 className="text-base font-semibold tracking-wider uppercase text-cyan-600">
+            <h2 className="text-base font-semibold tracking-wider uppercase text-primary-red">
               Learn
             </h2>
             <p className="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -265,7 +266,7 @@ const Index = () => {
                 </div>
                 <div className="flex flex-col justify-between flex-1 p-6 bg-white">
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-cyan-600">
+                    <p className="text-sm font-medium text-primary-red">
                       <a href={post.category.href} className="hover:underline">
                         {post.category.name}
                       </a>
@@ -309,45 +310,39 @@ const Index = () => {
         </div>
       </div>
 
-      {/* CTA Section */}
+      {/* Contact Section */}
       <div className="relative bg-gray-900">
         <div className="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
           <img
             className="object-cover w-full h-full"
-            src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&sat=-100"
+            src="/assets/images/hello.jpg"
             alt=""
           />
           <div
             aria-hidden="true"
-            className="absolute inset-0 bg-gradient-to-r from-teal-500 to-cyan-600 mix-blend-multiply"
+            className="absolute inset-0 bg-gradient-to-r from-primary-purple to-primary-pink mix-blend-multiply"
           />
         </div>
         <div className="relative max-w-md px-4 py-12 mx-auto sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
           <div className="md:ml-auto md:w-1/2 md:pl-10">
             <h2 className="text-base font-semibold tracking-wider text-gray-300 uppercase">
-              Award winning support
+              Contact me
             </h2>
             <p className="mt-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-              We’re here to help
+              Get in touch
             </p>
             <p className="mt-3 text-lg text-gray-300">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
-              egestas tempus tellus etiam sed. Quam a scelerisque amet
-              ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
-              quisque ut interdum tincidunt duis.
+              If you want to drop a friendly hello or make a business
+              proposition, here you will find all the ways to reach me.
             </p>
             <div className="mt-8">
               <div className="inline-flex rounded-md shadow">
-                <a
-                  href="#"
+                <Link
+                  href="/contact"
                   className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-gray-900 bg-white border border-transparent rounded-md hover:bg-gray-50"
                 >
-                  Visit the help center
-                  <ExternalLinkIcon
-                    className="w-5 h-5 ml-3 -mr-1 text-gray-400"
-                    aria-hidden="true"
-                  />
-                </a>
+                  Contact
+                </Link>
               </div>
             </div>
           </div>
