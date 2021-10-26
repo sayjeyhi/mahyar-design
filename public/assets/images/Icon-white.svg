@@ -14,12 +14,12 @@
       }
     </style>
     <linearGradient id="linear-gradient" x1="117.81" y1="2.2" x2="154.65" y2="236.55" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffbb03" />
-      <stop offset="1" stop-color="#ff285f" />
+      <stop offset="0" stop-color="rgba(255,255,255,0.7)" />
+      <stop offset="1" stop-color="rgba(255,255,255,0.5)" />
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="-3.87" y1="63.32" x2="63.68" y2="220.92" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ff44e4" />
-      <stop offset="1" stop-color="#4b2ec5" />
+      <stop offset="0" stop-color="rgba(255,255,255,0.7)" />
+      <stop offset="1" stop-color="rgba(255,255,255,0.5)" />
     </linearGradient>
   </defs>
   <g id="Lager_2" data-name="Lager 2">

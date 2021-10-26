@@ -117,7 +117,7 @@ const Index = () => {
       <Hero />
 
       {/* Feature section with screenshot */}
-      <div className="relative pt-16 bg-gray-50 sm:pt-24 lg:pt-32">
+      <div className="relative pt-16 sm:pt-24 lg:pt-32">
         <div className="max-w-md px-4 mx-auto text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
           <div>
             <h2 className="text-base font-semibold tracking-wider uppercase text-primary-red">
@@ -185,58 +185,8 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Testimonial section */}
-      <div className="pb-16 bg-gradient-to-r from-primary-red to-primary-yellow lg:pb-0 lg:z-10 lg:relative">
-        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
-          <div className="relative lg:-my-8">
-            <div
-              aria-hidden="true"
-              className="absolute inset-x-0 top-0 bg-white h-1/2 lg:hidden"
-            />
-            <div className="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
-              <div className="overflow-hidden shadow-xl aspect-w-10 aspect-h-6 rounded-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-                <img
-                  className="object-cover lg:h-full lg:w-full"
-                  src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-          <div className="mt-12 lg:m-0 lg:col-span-2 lg:pl-8">
-            <div className="max-w-md px-4 mx-auto sm:max-w-2xl sm:px-6 lg:px-0 lg:py-20 lg:max-w-none">
-              <blockquote>
-                <div>
-                  <svg
-                    className="w-12 h-12 text-white opacity-25"
-                    fill="currentColor"
-                    viewBox="0 0 32 32"
-                    aria-hidden="true"
-                  >
-                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-                  </svg>
-                  <p className="mt-6 text-2xl font-medium text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    urna nulla vitae laoreet augue. Amet feugiat est integer
-                    dolor auctor adipiscing nunc urna, sit.
-                  </p>
-                </div>
-                <footer className="mt-6">
-                  <p className="text-base font-medium text-white">
-                    Judith Black
-                  </p>
-                  <p className="text-base font-medium text-white">
-                    CEO at PureInsights
-                  </p>
-                </footer>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Blog section */}
-      <div className="relative py-16 bg-gray-50 sm:py-24 lg:py-32">
+      <div className="relative py-16 sm:py-24 lg:py-32">
         <div className="relative">
           <div className="max-w-md px-4 mx-auto text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
             <h2 className="text-base font-semibold tracking-wider uppercase text-primary-red">
@@ -311,8 +261,8 @@ const Index = () => {
       </div>
 
       {/* Contact Section */}
-      <div className="relative bg-gray-900">
-        <div className="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
+      <div className="relative bg-white">
+        <div className="relative h-56 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
           <img
             className="object-cover w-full h-full"
             src="/assets/images/hello.jpg"
@@ -325,13 +275,13 @@ const Index = () => {
         </div>
         <div className="relative max-w-md px-4 py-12 mx-auto sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
           <div className="md:ml-auto md:w-1/2 md:pl-10">
-            <h2 className="text-base font-semibold tracking-wider text-gray-300 uppercase">
+            <h2 className="text-base font-semibold tracking-wider uppercase">
               Contact me
             </h2>
-            <p className="mt-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+            <h1 className="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Get in touch
-            </p>
-            <p className="mt-3 text-lg text-gray-300">
+            </h1>
+            <p className="mt-3 text-lg ">
               If you want to drop a friendly hello or make a business
               proposition, here you will find all the ways to reach me.
             </p>

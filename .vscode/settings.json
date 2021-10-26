@@ -26,7 +26,16 @@
   "workbench.colorCustomizations": {
     "statusBar.background": "#9b077c",
     "statusBar.foreground": "#e7e7e7",
-    "statusBarItem.hoverBackground": "#cc09a3"
+    "statusBarItem.hoverBackground": "#cc09a3",
+    "editorGroup.border": "#cc09a3",
+    "panel.border": "#cc09a3",
+    "sash.hoverBorder": "#cc09a3",
+    "sideBar.border": "#cc09a3",
+    "statusBarItem.remoteBackground": "#9b077c",
+    "statusBarItem.remoteForeground": "#e7e7e7"
   },
-  "peacock.color": "#9b077c"
+  "peacock.color": "#9b077c",
+  "[xml]": {
+    "editor.defaultFormatter": "bryan-chen.linter-xo-2"
+  }
 }

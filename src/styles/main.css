@@ -7,3 +7,10 @@
 html, body, #__next {
   height: 100%;
 }
+
+.ScrollbarsCustom-Thumb {
+  @apply cursor-default bg-gradient-to-b from-primary-red to-primary-yellow !important;
+}
+
+.ScrollbarsCustom-Track {
+}

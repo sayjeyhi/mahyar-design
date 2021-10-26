@@ -30,6 +30,10 @@ module.exports = {
         background: '#030E29',
         teal: colors.teal,
         cyan: colors.cyan,
+        brown: {
+          DEFAULT: '#795548',
+          '50': '#efebe9',
+        },
       },
       lineHeight: {
         hero: '4.5rem',
@@ -37,6 +41,15 @@ module.exports = {
       flex: {
         layout: '1 0 auto',
       },
+      backgroundImage: (theme) => ({
+        'hero': 'url("/assets/images/hero-wave.svg")',
+        'spots': `
+          radial-gradient(circle at 10% 30%, ${theme("colors.primary.red")}25, transparent 35%),
+          radial-gradient(circle at 95% 40%, ${theme("colors.primary.pink")}25, transparent 35%),
+          radial-gradient(circle at 35% 90%, ${theme("colors.primary.yellow")}25, transparent 35%),
+          radial-gradient(circle at 60% 20%, ${theme("colors.primary.purple")}20, transparent 20%)
+        `,
+      }),
     },
   },
   variants: {},
