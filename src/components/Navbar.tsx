@@ -71,7 +71,7 @@ const Navbar = () => {
     <Popover
       as="nav"
       className={cn(
-        'fixed z-50 w-full py-6 transition-colors duration-500 bg-white',
+        'fixed z-50 w-full py-4 transition-colors duration-500 bg-white',
         {
           'bg-transparent': hideBG,
         }
@@ -83,7 +83,7 @@ const Navbar = () => {
       >
         <div className="flex items-center justify-between flex-1">
           <div className="flex items-center justify-between w-full md:w-auto">
-            <Link to="/">
+            <Link data-blobity-color="#39c900" to="/" className="px-4 py-2">
               <span className="sr-only">Workflow</span>
               <img
                 className="w-auto h-8 sm:h-10"
@@ -92,7 +92,7 @@ const Navbar = () => {
                     ? '/assets/images/Icon-white.svg'
                     : '/assets/images/Icon-text-black.svg'
                 }
-                alt=""
+                alt="Logo"
               />
             </Link>
             <div className="flex items-center -mr-2 md:hidden">
@@ -108,7 +108,7 @@ const Navbar = () => {
                 key={item.name}
                 href={item.href}
                 className={cn(
-                  'text-base font-medium hover:underline transition-colors duration-500',
+                  'px-4 py-2 text-base font-medium hover:underline transition-colors duration-500',
                   {
                     'text-white': hideBG,
                   }

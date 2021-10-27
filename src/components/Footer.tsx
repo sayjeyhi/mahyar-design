@@ -96,7 +96,7 @@ const Footer = () => {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="max-w-md mx-auto pt-12 px-4 sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
+      <div className="max-w-md px-4 pt-12 mx-auto sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
             <img
@@ -104,7 +104,7 @@ const Footer = () => {
               src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg"
               alt="Company name"
             />
-            <p className="text-gray-500 text-base">
+            <p className="text-base text-gray-500">
               Making the world a better place through constructing elegant
               hierarchies.
             </p>
@@ -113,18 +113,18 @@ const Footer = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-600 hover:text-gray-500"
+                  className="p-2 text-gray-600 hover:text-gray-500"
                 >
                   <span className="sr-only">{item.name}</span>
-                  <item.icon className="h-6 w-6" aria-hidden="true" />
+                  <item.icon className="w-6 h-6" aria-hidden="true" />
                 </a>
               ))}
             </div>
           </div>
-          <div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
+          <div className="grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">
+                <h3 className="px-4 text-sm font-semibold tracking-wider text-gray-600 uppercase">
                   Solutions
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -132,7 +132,7 @@ const Footer = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="px-4 py-2 text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
                       </a>
@@ -141,7 +141,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">
+                <h3 className="px-4 text-sm font-semibold tracking-wider text-gray-600 uppercase">
                   Support
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -149,7 +149,7 @@ const Footer = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="px-4 py-2 text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
                       </a>
@@ -160,7 +160,7 @@ const Footer = () => {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">
+                <h3 className="px-4 text-sm font-semibold tracking-wider text-gray-600 uppercase">
                   Company
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -168,7 +168,7 @@ const Footer = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="px-4 py-2 text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
                       </a>
@@ -177,7 +177,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">
+                <h3 className="px-4 text-sm font-semibold tracking-wider text-gray-600 uppercase">
                   Legal
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -185,7 +185,7 @@ const Footer = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="px-4 py-2 text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
                       </a>
@@ -196,7 +196,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-12 border-t border-gray-200 py-8">
+        <div className="py-8 mt-12 border-t border-gray-200">
           <p className="text-base text-gray-600 xl:text-center">
             &copy; {new Date().getFullYear()} {AppConfig.site_name}. All rights
             reserved.

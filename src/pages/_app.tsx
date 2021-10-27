@@ -1,5 +1,6 @@
-import React, { ReactElement, ReactNode } from 'react';
+import React, { ReactElement, ReactNode, useEffect } from 'react';
 
+import Blobity from 'blobity';
 import { NextPage } from 'next';
 import { AppProps } from 'next/app';
 
@@ -16,6 +17,18 @@ type AppPropsWithLayout = AppProps & {
 };
 
 export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
+  useEffect(() => {
+    const blobity = new Blobity({
+      licenseKey: 'lokecarlsson',
+      color: ['#4B2EC5', '#FB44E3'],
+      dotColor: '#4B2EC5',
+      zIndex: 55,
+      opacity: 0.35,
+      magnetic: false,
+    });
+    console.log(blobity);
+  }, []);
+
   // Use the layout defined at the page level, if available and fallback to Default layout
   const getLayout = Component.getLayout
     ? (page: JSX.Element) => page

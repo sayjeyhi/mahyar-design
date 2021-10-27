@@ -9,9 +9,11 @@ type Props = {
   children: JSX.Element | Array<JSX.Element> | string;
 };
 
-const Link = ({ to, href, className, children }: Props) => (
+const Link = ({ to, href, className, children, ...rest }: Props) => (
   <NextLink href={to || href || ''}>
-    <a className={className}>{children}</a>
+    <a className={className} {...rest}>
+      {children}
+    </a>
   </NextLink>
 );
 

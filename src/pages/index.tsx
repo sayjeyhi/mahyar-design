@@ -203,8 +203,10 @@ const Index = () => {
           </div>
           <div className="grid max-w-md gap-8 px-4 mx-auto mt-12 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
             {blogPosts.map((post) => (
-              <div
+              <Link
                 key={post.id}
+                href={post.href}
+                data-blobity-magnetic="false"
                 className="flex flex-col overflow-hidden rounded-lg shadow-lg"
               >
                 <div className="flex-shrink-0">
@@ -217,44 +219,17 @@ const Index = () => {
                 <div className="flex flex-col justify-between flex-1 p-6 bg-white">
                   <div className="flex-1">
                     <p className="text-sm font-medium text-primary-red">
-                      <a href={post.category.href} className="hover:underline">
-                        {post.category.name}
-                      </a>
+                      {post.category.name}
                     </p>
-                    <a href={post.href} className="block mt-2">
-                      <p className="text-xl font-semibold text-gray-900">
-                        {post.title}
-                      </p>
-                      <p className="mt-3 text-base text-gray-500">
-                        {post.preview}
-                      </p>
-                    </a>
-                  </div>
-                  <div className="flex items-center mt-6">
-                    <div className="flex-shrink-0">
-                      <a href={post.author.href}>
-                        <img
-                          className="w-10 h-10 rounded-full"
-                          src={post.author.imageUrl}
-                          alt={post.author.name}
-                        />
-                      </a>
-                    </div>
-                    <div className="ml-3">
-                      <p className="text-sm font-medium text-gray-900">
-                        <a href={post.author.href} className="hover:underline">
-                          {post.author.name}
-                        </a>
-                      </p>
-                      <div className="flex space-x-1 text-sm text-gray-500">
-                        <time dateTime={post.datetime}>{post.date}</time>
-                        <span aria-hidden="true">&middot;</span>
-                        <span>{post.readingLength} read</span>
-                      </div>
-                    </div>
+                    <p className="text-xl font-semibold text-gray-900">
+                      {post.title}
+                    </p>
+                    <p className="mt-3 text-base text-gray-500">
+                      {post.preview}
+                    </p>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
