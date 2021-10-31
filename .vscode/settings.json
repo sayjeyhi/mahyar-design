@@ -24,17 +24,17 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.colorCustomizations": {
-    "statusBar.background": "#9b077c",
+    "statusBar.background": "#ff295d",
     "statusBar.foreground": "#e7e7e7",
-    "statusBarItem.hoverBackground": "#cc09a3",
-    "editorGroup.border": "#cc09a3",
-    "panel.border": "#cc09a3",
-    "sash.hoverBorder": "#cc09a3",
-    "sideBar.border": "#cc09a3",
-    "statusBarItem.remoteBackground": "#9b077c",
+    "statusBarItem.hoverBackground": "#ff5c84",
+    "editorGroup.border": "#ff5c84",
+    "panel.border": "#ff5c84",
+    "sash.hoverBorder": "#ff5c84",
+    "sideBar.border": "#ff5c84",
+    "statusBarItem.remoteBackground": "#ff295d",
     "statusBarItem.remoteForeground": "#e7e7e7"
   },
-  "peacock.color": "#9b077c",
+  "peacock.color": "#FF295D",
   "[xml]": {
     "editor.defaultFormatter": "bryan-chen.linter-xo-2"
   }
