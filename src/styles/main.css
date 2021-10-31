@@ -1,8 +1,4 @@
-@tailwind base;
-
-@tailwind components;
-
-@tailwind utilities;
+import 'virtual:windi.css'
 
 html, body, #__next {
   height: 100%;

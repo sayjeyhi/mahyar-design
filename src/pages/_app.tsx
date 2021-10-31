@@ -6,6 +6,8 @@ import { AppProps } from 'next/app';
 
 import Default from '../layouts/Default';
 
+import 'windi.css'
+
 import '../styles/main.css';
 
 type NextPageWithLayout = NextPage & {

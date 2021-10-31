@@ -1,8 +1,11 @@
-const colors = require('tailwindcss/colors')
+import { defineConfig } from 'windicss/helpers'
+import colors from 'windicss/colors'
+import plugin from 'windicss/plugin'
 
-module.exports = {
-  mode: 'jit',
-  purge: ['./src/**/*.{js,ts,jsx,tsx}'],
+export default defineConfig({
+  extract: {
+    include: ['./src/**/*.{js,ts,jsx,tsx}'],
+  },
   darkMode: false,
   theme: {
     fontSize: {
@@ -54,7 +57,12 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/aspect-ratio'),
+    require('windicss/plugin/filters'),
+    require('windicss/plugin/forms'),
+    require('windicss/plugin/aspect-ratio'),
+    require('windicss/plugin/line-clamp'),
+    require('windicss/plugin/typography')({
+      modifiers: ['DEFAULT', 'sm', 'lg', 'red'],
+    }),
   ],
-};
+})
