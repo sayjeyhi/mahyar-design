@@ -1,18 +1,25 @@
-import React from 'react';
+import React from "react";
 
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-import { AppConfig } from '../utils/AppConfig';
-import { Meta } from './Meta';
+import { useRouter } from "next/router";
 
-const Default = ({ children }: any) => (
-  <div className="flex flex-col h-full antialiased text-gray-600 bg-white">
-    <Meta title={AppConfig.title} description={AppConfig.description} />
-    <Navbar />
-    {/* <div className="mb-[93.5px]" /> */}
-    <main className="flex-layout">{children}</main>
-    <Footer />
-  </div>
-);
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import { AppConfig } from "../utils/AppConfig";
+import { Meta } from "./Meta";
+
+const Default = ({ children }: any) => {
+  const router = useRouter();
+  const onIndex = router.pathname === "/";
+
+  return (
+    <div className="bg-white flex flex-col h-full text-gray-600 antialiased">
+      <Meta title={AppConfig.title} description={AppConfig.description} />
+      <Navbar />
+      {!onIndex && <div className="mb-[93.5px]" />}
+      <main className="flex-layout">{children}</main>
+      <Footer />
+    </div>
+  );
+};
 
 export default Default;

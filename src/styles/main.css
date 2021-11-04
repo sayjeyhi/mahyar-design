@@ -1,12 +1,14 @@
-import 'virtual:windi.css'
+/* import 'virtual:windi.css' */
 
 html, body, #__next {
   height: 100%;
 }
 
-.ScrollbarsCustom-Thumb {
-  @apply cursor-default bg-gradient-to-b from-primary-red to-primary-yellow !important;
+html::-webkit-scrollbar-track {
+  background:  linear-gradient(0deg, #FF295D 25%, #FFBA02 50%, #FB44E3 75%, #4B2EC5 100%);
 }
 
-.ScrollbarsCustom-Track {
+html::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0px 0px 0px 100000vh #fff;
 }

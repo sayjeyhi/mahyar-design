@@ -1,6 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import NextLink from 'next/link';
+import cn from "classnames";
+import NextLink from "next/link";
 
 type Props = {
   to?: string;
@@ -10,8 +11,8 @@ type Props = {
 };
 
 const Link = ({ to, href, className, children, ...rest }: Props) => (
-  <NextLink href={to || href || ''}>
-    <a className={className} {...rest}>
+  <NextLink href={to || href || ""}>
+    <a data-custom-link className={cn("", className)} {...rest}>
       {children}
     </a>
   </NextLink>
