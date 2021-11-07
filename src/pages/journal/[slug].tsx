@@ -2,7 +2,7 @@ import React from "react"
 
 import { getMDXComponent } from "mdx-bundler/client"
 
-import { getAllPosts, getSinglePost } from "utils/mdx"
+import { getPosts, getSinglePost } from "utils/mdx"
 
 const Post = ({ code, frontmatter }: any) => {
   const Component = React.useMemo(() => getMDXComponent(code), [code])
@@ -24,7 +24,7 @@ export const getStaticProps = async ({ params }: any) => {
 }
 
 export const getStaticPaths = async () => {
-  const paths = getAllPosts().map(({ slug }) => ({ params: { slug } }))
+  const paths = getPosts().map(({ slug }) => ({ params: { slug } }))
 
   return {
     paths,

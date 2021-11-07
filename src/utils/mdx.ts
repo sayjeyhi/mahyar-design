@@ -10,20 +10,24 @@ export const getSourceOfFile = (fileName: any) => {
   return fs.readFileSync(path.join(POSTS_PATH, fileName))
 }
 
-export const getAllPosts = () => {
-  return fs
-    .readdirSync(POSTS_PATH)
-    .filter((p) => /\.mdx?$/.test(p))
-    .map((fileName) => {
-      const source = getSourceOfFile(fileName)
-      const slug = fileName.replace(/\.mdx?$/, "")
-      const { data } = matter(source)
+export const getPosts = (amount?: number) => {
+  return (
+    fs
+      .readdirSync(POSTS_PATH)
+      .filter((p) => /\.mdx?$/.test(p))
+      .map((fileName) => {
+        const source = getSourceOfFile(fileName)
+        const slug = fileName.replace(/\.mdx?$/, "")
+        const { data } = matter(source)
 
-      return {
-        frontmatter: data,
-        slug,
-      }
-    })
+        return {
+          frontmatter: data,
+          slug,
+        }
+      })
+      // If amount is specified, return that amount, else return all posts
+      .slice(0, amount)
+  )
 }
 
 export const getSinglePost = async (slug: string) => {

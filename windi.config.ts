@@ -1,15 +1,15 @@
-import scrollbar from "@windicss/plugin-scrollbar";
-import colors from "windicss/colors";
-import { defineConfig } from "windicss/helpers";
-import aspectRatio from "windicss/plugin/aspect-ratio";
-import filters from "windicss/plugin/filters";
-import forms from "windicss/plugin/forms";
-import lineClamp from "windicss/plugin/line-clamp";
-import typography from "windicss/plugin/typography";
+import scrollbar from "@windicss/plugin-scrollbar"
+import colors from "windicss/colors"
+import { defineConfig } from "windicss/helpers"
+import aspectRatio from "windicss/plugin/aspect-ratio"
+import filters from "windicss/plugin/filters"
+import forms from "windicss/plugin/forms"
+import lineClamp from "windicss/plugin/line-clamp"
+import typography from "windicss/plugin/typography"
 
 export default defineConfig({
   extract: {
-    include: ["./src/**/*.{js,ts,jsx,tsx}"],
+    include: ["./src/**/*.{css,js,ts,jsx,tsx}"],
   },
   darkMode: false,
   theme: {
@@ -53,16 +53,16 @@ export default defineConfig({
         hero: 'url("/assets/images/hero-wave.svg")',
         spots: `
           radial-gradient(circle at 10% 30%, ${theme(
-            "colors.primary.red"
+            "colors.primary.red",
           )}25, transparent 35%),
           radial-gradient(circle at 95% 40%, ${theme(
-            "colors.primary.pink"
+            "colors.primary.pink",
           )}25, transparent 35%),
           radial-gradient(circle at 35% 90%, ${theme(
-            "colors.primary.yellow"
+            "colors.primary.yellow",
           )}25, transparent 35%),
           radial-gradient(circle at 60% 20%, ${theme(
-            "colors.primary.purple"
+            "colors.primary.purple",
           )}20, transparent 20%)
         `,
       }),
@@ -80,4 +80,4 @@ export default defineConfig({
     filters,
     typography,
   ],
-});
+})

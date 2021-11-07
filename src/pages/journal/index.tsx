@@ -1,5 +1,5 @@
 import Link from "components/Link"
-import { getAllPosts } from "utils/mdx"
+import { getPosts } from "utils/mdx"
 
 export default function JournalList({ posts }: any) {
   return (
@@ -17,7 +17,7 @@ export default function JournalList({ posts }: any) {
 }
 
 export const getStaticProps = async () => {
-  const posts = getAllPosts()
+  const posts = getPosts()
 
   return {
     props: { posts },
