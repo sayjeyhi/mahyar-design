@@ -2,8 +2,6 @@ import React from "react";
 
 import { getMDXComponent } from "mdx-bundler/client";
 
-import Link from "components/Link";
-
 import { getAllPosts, getSinglePost } from "../../utils/mdx";
 
 const Post = ({ code, frontmatter }: any) => {
@@ -12,11 +10,7 @@ const Post = ({ code, frontmatter }: any) => {
   return (
     <div>
       <h1>{frontmatter.title}</h1>
-      <Component
-        components={{
-          a: Link,
-        }}
-      />
+      <Component />
     </div>
   );
 };
