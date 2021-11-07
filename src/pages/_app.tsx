@@ -3,11 +3,11 @@ import React, { ReactElement, ReactNode } from "react"
 import { NextPage } from "next"
 import { AppProps } from "next/app"
 
-import Default from "../layouts/Default"
+import Default from "layouts/Default"
 
 import "windi.css"
 
-import "../styles/main.css"
+import "styles/main.css"
 
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode

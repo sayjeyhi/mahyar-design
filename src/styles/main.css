@@ -1,11 +1,19 @@
 /* import 'virtual:windi.css' */
 
-html, body, #__next {
+html,
+body,
+#__next {
   height: 100%;
 }
 
 html::-webkit-scrollbar-track {
-  background:  linear-gradient(0deg, #FF295D 25%, #FFBA02 50%, #FB44E3 75%, #4B2EC5 100%);
+  background: linear-gradient(
+    0deg,
+    #ff295d 25%,
+    #ffba02 50%,
+    #fb44e3 75%,
+    #4b2ec5 100%
+  );
 }
 
 html::-webkit-scrollbar-thumb {

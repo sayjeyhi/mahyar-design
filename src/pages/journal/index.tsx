@@ -1,6 +1,5 @@
 import Link from "components/Link"
-
-import { getAllPosts } from "../utils/mdx"
+import { getAllPosts } from "utils/mdx"
 
 export default function JournalList({ posts }: any) {
   return (

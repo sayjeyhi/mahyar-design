@@ -9,9 +9,8 @@ import {
   ShieldCheckIcon,
 } from "@heroicons/react/outline"
 
+import Hero from "components/Hero"
 import Link from "components/Link"
-
-import Hero from "../components/Hero"
 
 const features = [
   {

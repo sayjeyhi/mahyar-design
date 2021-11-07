@@ -2,9 +2,9 @@ import React from "react"
 
 import { useRouter } from "next/router"
 
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
-import { AppConfig } from "../utils/AppConfig"
+import Footer from "components/Footer"
+import Navbar from "components/Navbar"
+import { AppConfig } from "utils/AppConfig"
 import { Meta } from "./Meta"
 
 const Default = ({ children }: any) => {
