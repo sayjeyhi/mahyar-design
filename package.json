@@ -20,19 +20,20 @@
     "@n8tb1t/use-scroll-position": "^2.0.3",
     "@tailwindcss/aspect-ratio": "^0.3.0",
     "@tailwindcss/forms": "^0.3.4",
+    "@tailwindcss/line-clamp": "^0.2.2",
     "@tailwindcss/typography": "^0.4.1",
-    "@windicss/plugin-scrollbar": "^1.2.3",
+    "autoprefixer": "^10.4.0",
     "classnames": "^2.3.1",
     "esbuild": "^0.13.12",
     "gray-matter": "^4.0.3",
     "mdx-bundler": "^6.0.2",
     "next": "^12.0.0",
     "next-seo": "^4.28.1",
+    "postcss": "^8.3.11",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-jsx-plugin-postcss": "^4.0.1",
-    "windicss": "^3.2.0",
-    "windicss-webpack-plugin": "^1.5.5"
+    "tailwindcss": "^2.2.19"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.0.0",

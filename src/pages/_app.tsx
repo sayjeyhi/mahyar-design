@@ -5,15 +5,7 @@ import { AppProps } from "next/app"
 
 import Default from "layouts/Default"
 
-import "windi.css"
 import "styles/main.css"
-// windicss layers
-import "windi-base.css"
-import "windi-components.css"
-// windicss utilities should be the last style import
-import "windi-utilities.css"
-// windicss devtools support (dev only)
-import "windi-devtools"
 
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode

@@ -1,16 +1,8 @@
-import scrollbar from "@windicss/plugin-scrollbar"
-import colors from "windicss/colors"
-import { defineConfig } from "windicss/helpers"
-import aspectRatio from "windicss/plugin/aspect-ratio"
-import filters from "windicss/plugin/filters"
-import forms from "windicss/plugin/forms"
-import lineClamp from "windicss/plugin/line-clamp"
-import typography from "windicss/plugin/typography"
+const colors = require("tailwindcss/colors")
 
-export default defineConfig({
-  extract: {
-    include: ["./src/**/*.{css,js,ts,jsx,tsx}"],
-  },
+module.exports = {
+  mode: "jit",
+  purge: ["./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: false,
   theme: {
     fontSize: {
@@ -40,7 +32,7 @@ export default defineConfig({
         cyan: colors.cyan,
         brown: {
           DEFAULT: "#795548",
-          "50": "#efebe9",
+          50: "#efebe9",
         },
       },
       lineHeight: {
@@ -68,16 +60,11 @@ export default defineConfig({
       }),
     },
   },
-  variants: {
-    scrollbar: ["rounded"],
-  },
+  variants: {},
   plugins: [
-    filters,
-    forms,
-    aspectRatio,
-    lineClamp,
-    scrollbar,
-    filters,
-    typography,
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/line-clamp"),
+    require("@tailwindcss/aspect-ratio"),
   ],
-})
+}
