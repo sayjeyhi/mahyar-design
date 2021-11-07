@@ -1,19 +1,19 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useState } from "react"
 
-import { Popover, Transition } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { useScrollPosition } from "@n8tb1t/use-scroll-position";
-import cn from "classnames";
-import { useRouter } from "next/router";
+import { Popover, Transition } from "@headlessui/react"
+import { MenuIcon, XIcon } from "@heroicons/react/outline"
+import { useScrollPosition } from "@n8tb1t/use-scroll-position"
+import cn from "classnames"
+import { useRouter } from "next/router"
 
-import Link from "components/Link";
+import Link from "components/Link"
 
 const navigation = [
   { name: "About", href: "/about" },
   { name: "Journal", href: "/journal" },
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
-];
+]
 
 const MobileMenu = () => (
   <Transition
@@ -61,14 +61,14 @@ const MobileMenu = () => (
       </div>
     </Popover.Panel>
   </Transition>
-);
+)
 
 const Navbar = () => {
-  const router = useRouter();
-  const [hideBG, setHideBG] = useState(true);
-  const onIndex = router.pathname === "/";
+  const router = useRouter()
+  const [hideBG, setHideBG] = useState(true)
+  const onIndex = router.pathname === "/"
 
-  useScrollPosition(({ currPos }) => setHideBG(currPos.y > -50));
+  useScrollPosition(({ currPos }) => setHideBG(currPos.y > -50))
 
   return (
     <Popover
@@ -125,7 +125,7 @@ const Navbar = () => {
       </div>
       <MobileMenu />
     </Popover>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

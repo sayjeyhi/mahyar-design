@@ -1,15 +1,15 @@
-import React from "react";
+import React from "react"
 
-import { useRouter } from "next/router";
+import { useRouter } from "next/router"
 
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import { AppConfig } from "../utils/AppConfig";
-import { Meta } from "./Meta";
+import Footer from "../components/Footer"
+import Navbar from "../components/Navbar"
+import { AppConfig } from "../utils/AppConfig"
+import { Meta } from "./Meta"
 
 const Default = ({ children }: any) => {
-  const router = useRouter();
-  const onIndex = router.pathname === "/";
+  const router = useRouter()
+  const onIndex = router.pathname === "/"
 
   return (
     <div className="bg-white flex flex-col h-full text-gray-600 antialiased">
@@ -19,7 +19,7 @@ const Default = ({ children }: any) => {
       <main className="flex-layout">{children}</main>
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Default;
+export default Default

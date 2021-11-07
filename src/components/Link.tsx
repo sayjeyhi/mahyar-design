@@ -1,14 +1,14 @@
-import React from "react";
+import React from "react"
 
-import cn from "classnames";
-import NextLink from "next/link";
+import cn from "classnames"
+import NextLink from "next/link"
 
 type Props = {
-  to?: string;
-  href?: string;
-  className?: string;
-  children: JSX.Element | Array<JSX.Element> | string;
-};
+  to?: string
+  href?: string
+  className?: string
+  children: JSX.Element | Array<JSX.Element> | string
+}
 
 const Link = ({ to, href, className, children, ...rest }: Props) => (
   <NextLink href={to || href || ""}>
@@ -16,6 +16,6 @@ const Link = ({ to, href, className, children, ...rest }: Props) => (
       {children}
     </a>
   </NextLink>
-);
+)
 
-export default Link;
+export default Link

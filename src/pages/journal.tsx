@@ -1,6 +1,6 @@
-import Link from "components/Link";
+import Link from "components/Link"
 
-import { getAllPosts } from "../utils/mdx";
+import { getAllPosts } from "../utils/mdx"
 
 export default function JournalList({ posts }: any) {
   return (
@@ -14,13 +14,13 @@ export default function JournalList({ posts }: any) {
         ))}
       </ul>
     </div>
-  );
+  )
 }
 
 export const getStaticProps = async () => {
-  const posts = getAllPosts();
+  const posts = getAllPosts()
 
   return {
     props: { posts },
-  };
-};
+  }
+}

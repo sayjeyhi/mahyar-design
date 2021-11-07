@@ -1,8 +1,9 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document"
 
-import { AppConfig } from "../utils/AppConfig";
+import { AppConfig } from "../utils/AppConfig"
 
 class MyDocument extends Document {
+  // eslint-disable-next-line class-methods-use-this
   render() {
     return (
       <Html
@@ -15,8 +16,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    );
+    )
   }
 }
 
-export default MyDocument;
+export default MyDocument

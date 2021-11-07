@@ -1,17 +1,17 @@
-import cn from 'classnames';
+import cn from "classnames"
 
 type Props = {
-  xl?: boolean;
-  children: string;
-};
+  xl?: boolean
+  children: string
+}
 
 const Button = (props: Props) => {
   const btnClass = cn({
     btn: true,
-    'btn-xl': props.xl,
-    'btn-base': !props.xl,
-    'btn-primary': true,
-  });
+    "btn-xl": props.xl,
+    "btn-base": !props.xl,
+    "btn-primary": true,
+  })
 
   return (
     <div className={btnClass}>
@@ -41,7 +41,7 @@ const Button = (props: Props) => {
         `}
       </style>
     </div>
-  );
-};
+  )
+}
 
-export { Button };
+export { Button }

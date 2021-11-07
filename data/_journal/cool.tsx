@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react"
 
 const Cool = () => {
-  return <div className="cool">😎</div>;
-};
+  return <div className="cool">😎</div>
+}
 
-export default Cool;
+export default Cool

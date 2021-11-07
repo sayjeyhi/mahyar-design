@@ -1,6 +1,6 @@
-import React from "react";
+import React from "react"
 
-import Link from "components/Link";
+import Link from "components/Link"
 
 const Hero = () => (
   <div className="bg-bottom bg-cover bg-hero h-full w-full overflow-auto">
@@ -20,6 +20,6 @@ const Hero = () => (
       </div>
     </div>
   </div>
-);
+)
 
-export default Hero;
+export default Hero

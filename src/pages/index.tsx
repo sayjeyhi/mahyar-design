@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 import {
   CloudUploadIcon,
@@ -7,11 +7,11 @@ import {
   RefreshIcon,
   ServerIcon,
   ShieldCheckIcon,
-} from "@heroicons/react/outline";
+} from "@heroicons/react/outline"
 
-import Link from "components/Link";
+import Link from "components/Link"
 
-import Hero from "../components/Hero";
+import Hero from "../components/Hero"
 
 const features = [
   {
@@ -50,7 +50,7 @@ const features = [
       "Quia qui et est officia cupiditate qui consectetur. Ratione similique et impedit ea ipsum et.",
     icon: ServerIcon,
   },
-];
+]
 const blogPosts = [
   {
     id: 1,
@@ -109,7 +109,7 @@ const blogPosts = [
     },
     readingLength: "11 min",
   },
-];
+]
 
 const Index = () => {
   return (
@@ -273,7 +273,7 @@ const Index = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Index;
+export default Index
