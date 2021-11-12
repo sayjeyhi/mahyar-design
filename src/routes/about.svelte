@@ -1,16 +1,8 @@
 <script context="module">
   import { browser, dev } from "$app/env";
 
-  // we don't need any JS on this page, though we'll load
-  // it in dev so that we get hot module replacement...
   export const hydrate = dev;
-
-  // ...but if the client-side router is already loaded
-  // (i.e. we came here from elsewhere in the app), use it
   export const router = browser;
-
-  // since there's no dynamic data here, we can prerender
-  // it so that it gets served as a static asset in prod
   export const prerender = true;
 </script>
 
@@ -19,25 +11,26 @@
 </svelte:head>
 
 <div class="content">
-  <h1>About this app</h1>
+  <h1 class="mb-6">About me</h1>
 
   <p>
-    This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-    following into your command line and following the prompts:
+    <strong>
+      As a frontend developer, I focus on solving problems. Putting an emphasis on loyalty and
+      honesty with clients and fellow team members. Passionate about the JAMstack, I strive for
+      intuitiveness in all the work that I do, doing everything that I can to make users'
+      experiences smooth, easy, and comfortable.
+    </strong>
   </p>
 
-  <!-- TODO lose the @next! -->
-  <pre>npm init svelte@next</pre>
+  <br />
 
   <p>
-    The page you're looking at is purely static HTML, with no client-side interactivity needed.
-    Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-    the devtools network panel and reloading.
-  </p>
-
-  <p>
-    The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-    it with JavaScript disabled!
+    I work with both React.js and Svelte regularly, and try to use these tools to the best of my
+    ability in order to bring my clients' UI visions to life. My preferred CSS preprocesor is Sass,
+    and my ability to style the pages and platforms that I develops is noteworthy, my technical
+    skills complemented nicely by my fashionable eye. Considering at all times what will make
+    interfaces attractive and what will make them efficient, I try to develop in a way that plays to
+    users' expectations – while also surprising them pleasantly with unique and different ideas.
   </p>
 </div>
 

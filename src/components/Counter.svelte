@@ -37,8 +37,8 @@
 <style>
   .counter {
     display: flex;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     margin: 1rem 0;
   }
 
@@ -50,12 +50,11 @@
     justify-content: center;
     border: 0;
     background-color: transparent;
-    color: var(--text-color);
     font-size: 2rem;
   }
 
   .counter button:hover {
-    background-color: var(--secondary-color);
+    background-color: rgba(255, 255, 255, 0.1);
   }
 
   svg {
@@ -66,7 +65,7 @@
   path {
     vector-effect: non-scaling-stroke;
     stroke-width: 2px;
-    stroke: var(--text-color);
+    stroke: #fff;
   }
 
   .counter-viewport {
@@ -83,10 +82,10 @@
     width: 100%;
     height: 100%;
     font-weight: 400;
-    color: var(--accent-color);
     font-size: 4rem;
     align-items: center;
     justify-content: center;
+    @apply text-primary;
   }
 
   .counter-digits {
