@@ -10,12 +10,11 @@
 
 <div>
   <h1 class="mb-6">Projects</h1>
-  <h2 class="mb-6 text-center text-secondary"><strong>--- Work in progress! ---</strong></h2>
 
   <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {#each $projects as project, index (project.id)}
       <div
-        class="bg-background--faded p-6 gap-4 rounded-lg border-primary border flex flex-col items-baseline"
+        class="bg-background p-6 gap-4 rounded-lg border-primary border flex flex-col items-baseline"
         transition:scale|local={{ start: 2, delay: index * 10 }}
       >
         <a href={project.html_url}>
@@ -29,6 +28,7 @@
               // Filter out broken emojis
               .replace(/\:.+\:/g, "")}
           </p>{/if}
+        {#if project.stargazers_count > 0} <p>★ {project.stargazers_count}</p>{/if}
       </div>
     {/each}
   </div>

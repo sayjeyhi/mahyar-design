@@ -13,7 +13,7 @@ const fetchProjects = async () => {
   })
   const data = await response.json()
 
-  projects.set(data)
+  projects.set(data.sort((a, b) => b.stargazers_count - a.stargazers_count))
 }
 
 fetchProjects()
