@@ -1,0 +1,41 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  a {
+    @apply text-primary;
+  }
+
+  body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: #030e29;
+    color: #fff;
+  }
+
+  #svelte {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+html::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, #ff295d 25%, #ffba02 50%, #fb44e3 75%, #4b2ec5 100%);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0px 0px 0px 100000vh #fff;
+}
