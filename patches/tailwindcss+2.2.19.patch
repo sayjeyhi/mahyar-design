@@ -1,0 +1,25 @@
+diff --git a/node_modules/tailwindcss/lib/jit/processTailwindFeatures.js b/node_modules/tailwindcss/lib/jit/processTailwindFeatures.js
+index 271ffe9..7ab9b8a 100644
+--- a/node_modules/tailwindcss/lib/jit/processTailwindFeatures.js
++++ b/node_modules/tailwindcss/lib/jit/processTailwindFeatures.js
+@@ -21,20 +21,10 @@ var _collapseAdjacentRules = _interopRequireDefault(require("./lib/collapseAdjac
+ 
+ var _setupContextUtils = require("./lib/setupContextUtils");
+ 
+-var _log = _interopRequireDefault(require("../util/log"));
+-
+ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+ 
+-let warned = false;
+-
+ function processTailwindFeatures(setupContext) {
+   return function (root, result) {
+-    if (!warned) {
+-      _log.default.warn([`You have enabled the JIT engine which is currently in preview.`, 'Preview features are not covered by semver, may introduce breaking changes, and can change at any time.']);
+-
+-      warned = true;
+-    }
+-
+     let tailwindDirectives = (0, _normalizeTailwindDirectives.default)(root);
+     let context = setupContext({
+       tailwindDirectives,
