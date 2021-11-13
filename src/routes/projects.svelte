@@ -15,11 +15,20 @@
   <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {#each $projects as project, index (project.id)}
       <div
-        class="bg-background--faded p-6 rounded-lg border-primary border"
+        class="bg-background--faded p-6 gap-4 rounded-lg border-primary border flex flex-col items-baseline"
         transition:scale|local={{ start: 2, delay: index * 10 }}
       >
-        <h3 class="font-bold text-2xl">{project.name}</h3>
-        {#if project.description} <p>{project.description}</p>{/if}
+        <a href={project.html_url}>
+          <h3 class="font-bold text-lg inline">{project.name}</h3>
+        </a>
+        {#if project.description}
+          <p>
+            {project.description
+              // Filter out emojis
+              .replace(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g, "")
+              // Filter out broken emojis
+              .replace(/\:.+\:/g, "")}
+          </p>{/if}
       </div>
     {/each}
   </div>
