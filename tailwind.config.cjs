@@ -1,4 +1,4 @@
-const colors = require("tailwindcss/colors");
+const colors = require("tailwindcss/colors")
 
 const config = {
   mode: "jit",
@@ -23,7 +23,7 @@ const config = {
         primary: "#FF295D",
         secondary: "#FFBA02",
         background: "#030E29",
-        "background--faded": "#051035",
+        "background--faded": "#101254",
         teal: colors.teal,
         cyan: colors.cyan,
         brown: {
@@ -50,6 +50,6 @@ const config = {
     },
   },
   plugins: [],
-};
+}
 
-module.exports = config;
+module.exports = config
