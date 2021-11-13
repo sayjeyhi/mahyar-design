@@ -39,6 +39,7 @@
 
 <div>
   <h1 class="mb-6">Projects</h1>
+  <h2 class="mb-6 text-center text-secondary"><strong>--- Work in progress! ---</strong></h2>
 
   <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {#each projects as project, index (project.id)}
