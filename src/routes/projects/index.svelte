@@ -33,7 +33,8 @@
 </script>
 
 <svelte:head>
-  <title>Projects</title>
+  <title>Projects - loke.dev</title>
+  <meta name="description" content="Here you will find some featured projects of mine." />
 </svelte:head>
 
 <div>

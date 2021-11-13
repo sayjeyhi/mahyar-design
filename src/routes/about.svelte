@@ -1,13 +1,14 @@
 <script context="module">
-  import { browser, dev } from "$app/env";
+  import { browser, dev } from "$app/env"
 
-  export const hydrate = dev;
-  export const router = browser;
-  export const prerender = true;
+  export const hydrate = dev
+  export const router = browser
+  export const prerender = true
 </script>
 
 <svelte:head>
-  <title>About</title>
+  <title>About - loke.dev</title>
+  <meta name="description" content="This is the short story of Loke" />
 </svelte:head>
 
 <div class="content">
