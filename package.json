@@ -32,6 +32,7 @@
     "typescript": "^4.4.4"
   },
   "type": "module",
+  "node": ">= 14.0.0",
   "dependencies": {
     "@fontsource/fira-mono": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
