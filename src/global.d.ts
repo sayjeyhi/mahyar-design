@@ -3,3 +3,9 @@
 interface Locals {
   userid: string;
 }
+
+interface ImportMeta {
+  env: {
+    VITE_GITHUB_TOKEN: string;
+  };
+}
