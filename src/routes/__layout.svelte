@@ -3,16 +3,17 @@
     props: {
       key: page.path,
     },
-  });
+  })
 </script>
 
 <script lang="ts">
-  import Header from "$components/Header.svelte";
-  import Footer from "$components/Footer.svelte";
-  import PageTransition from "$components/PageTransition.svelte";
-  import "../app.css";
+  import Header from "$components/Header.svelte"
+  import Footer from "$components/Footer.svelte"
+  import PageTransition from "$components/PageTransition.svelte"
 
-  export let key: string;
+  import "../app.css"
+
+  export let key: string
 </script>
 
 <Header />
