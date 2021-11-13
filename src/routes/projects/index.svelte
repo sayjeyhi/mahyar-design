@@ -40,7 +40,7 @@
 <div>
   <h1 class="mb-6">Projects</h1>
 
-  <div class="grid grid-cols-3 gap-4">
+  <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {#each projects as project, index (project.id)}
       <div
         class="bg-background--faded p-6 rounded-lg border-primary border"
