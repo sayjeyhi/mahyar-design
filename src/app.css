@@ -30,3 +30,12 @@
     flex-direction: column;
   }
 }
+
+html::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, #ff295d 25%, #ffba02 50%, #fb44e3 75%, #4b2ec5 100%);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0px 0px 0px 100000vh #fff;
+}
