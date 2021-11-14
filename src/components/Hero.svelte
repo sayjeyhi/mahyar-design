@@ -119,10 +119,10 @@
 
     setResolution(canvas)
 
-    gradient.addColorStop((1 / 3) * 0, "#FF295D")
-    gradient.addColorStop((1 / 3) * 1, "#FFBA02")
-    gradient.addColorStop((1 / 3) * 2, "#fc44e4")
-    gradient.addColorStop((1 / 3) * 3, "#4b2ec6")
+    gradient.addColorStop((1 / 3) * 0, "#fc44e4")
+    gradient.addColorStop((1 / 3) * 1, "#4b2ec6")
+    gradient.addColorStop((1 / 3) * 2, "#FFBA02")
+    gradient.addColorStop((1 / 3) * 3, "#FF295D")
     ctx.fillStyle = gradient
     ctx.fillRect(0, 0, gradientWidth, 2)
 
