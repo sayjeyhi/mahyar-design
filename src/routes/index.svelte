@@ -11,10 +11,10 @@
   <meta name="description" content="Loke.dev is the personal website for Loke Carlsson" />
 </svelte:head>
 
-<section class="flex flex-col justify-between items-center flex-1 h-full">
+<section class="">
   <Hero />
 
-  <div>
+  <div class="flex flex-col items-center mt-20">
     <p>
       Contact me via <a href="mailto:hello@loke.dev">Email</a> or find me on other medias:
       <a href="https://github.com/lokecarlsson">Github</a>

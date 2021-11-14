@@ -39,12 +39,11 @@ const config = {
         1: "1",
       },
       backgroundImage: (theme) => ({
-        hero: 'url("/assets/images/hero-wave.svg")',
         spots: `
-          radial-gradient(circle at 10% 30%, ${theme("colors.primary.red")}25, transparent 35%),
-          radial-gradient(circle at 95% 40%, ${theme("colors.primary.pink")}25, transparent 35%),
-          radial-gradient(circle at 35% 90%, ${theme("colors.primary.yellow")}25, transparent 35%),
-          radial-gradient(circle at 60% 20%, ${theme("colors.primary.purple")}20, transparent 20%)
+          radial-gradient(circle at 10% 30%, ${theme("colors.primary")}25, transparent 35%),
+          radial-gradient(circle at 95% 40%, ${theme("colors.secondary")}25, transparent 35%),
+          radial-gradient(circle at 35% 90%, ${theme("colors.primary")}25, transparent 35%),
+          radial-gradient(circle at 60% 20%, ${theme("colors.secondary")}20, transparent 20%)
         `,
       }),
     },

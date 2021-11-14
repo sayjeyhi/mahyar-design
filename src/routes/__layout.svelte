@@ -18,7 +18,7 @@
 
 <Header />
 
-<main class="flex flex-1 flex-col p-4 w-full max-w-5xl m-auto box-border mt-6 mb-20">
+<main class="flex flex-1 flex-col p-4 w-full m-auto box-border mt-6 mb-20">
   <PageTransition refresh={key}>
     <slot />
   </PageTransition>

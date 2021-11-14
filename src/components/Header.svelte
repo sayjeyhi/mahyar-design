@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { page } from "$app/stores";
+  import { page } from "$app/stores"
 </script>
 
 <header class="bg-background--faded p-4 flex justify-center">
