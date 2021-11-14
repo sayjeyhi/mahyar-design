@@ -27,7 +27,7 @@
     y: number
   }
 
-  const defaultSquareColor = "#c6c7c9"
+  const defaultSquareColor = "#c6c7c950"
   const squareSize = 20
   const squareMargin = 50
   const gradientColors = []
