@@ -3,6 +3,7 @@
 </script>
 
 <script lang="ts">
+  import Hero from "$components/Hero.svelte"
 </script>
 
 <svelte:head>
@@ -11,7 +12,7 @@
 </svelte:head>
 
 <section class="flex flex-col justify-between items-center flex-1 h-full">
-  <h1 class="my-[10vh] text-center text-6xl">Creativity, playfulness and practicality.</h1>
+  <Hero />
 
   <div>
     <p>
