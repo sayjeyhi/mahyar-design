@@ -231,6 +231,10 @@
     justify-content: center;
     align-items: center;
     padding: 4rem;
+
+    @media (max-width: 768px) {
+      padding: 0;
+    }
   }
 
   .hero-canvas {
@@ -249,6 +253,12 @@
     margin-top: 7rem;
     margin-bottom: 7rem;
     padding: 6rem;
+
+    @media (max-width: 768px) {
+      margin-top: 10rem;
+      margin-bottom: 10rem;
+      padding: 2rem;
+    }
   }
 
   .prefix {
@@ -256,6 +266,10 @@
     font-size: 1.5rem;
     line-height: 1.5rem;
     margin-bottom: 10px;
+
+    @media (max-width: 768px) {
+      text-align: center;
+    }
   }
 
   .title {
@@ -270,5 +284,12 @@
 
   span {
     display: inline;
+  }
+
+  @media (max-width: 768px) {
+    br,
+    span {
+      display: none;
+    }
   }
 </style>
