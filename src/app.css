@@ -31,6 +31,17 @@
   }
 }
 
+@layer utilities {
+  .fullWidth {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+}
+
 html::-webkit-scrollbar-track {
   background: linear-gradient(0deg, #ff295d 25%, #ffba02 50%, #fb44e3 75%, #4b2ec5 100%);
 }
