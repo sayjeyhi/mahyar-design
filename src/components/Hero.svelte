@@ -211,7 +211,7 @@
   })
 </script>
 
-<div class="hero">
+<div class="hero fullWidth">
   <canvas class="hero-canvas" />
   <div class="hero-content">
     <h2 class="prefix">Welcome to</h2>

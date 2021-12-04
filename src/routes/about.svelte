@@ -34,11 +34,3 @@
     users' expectations – while also surprising them pleasantly with unique and different ideas.
   </p>
 </div>
-
-<style>
-  .content {
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
-  }
-</style>
