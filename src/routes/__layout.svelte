@@ -11,7 +11,7 @@
   import Footer from "$components/Footer.svelte"
   import PageTransition from "$components/PageTransition.svelte"
 
-  import "../app.css"
+  import "$styles/app.css"
 
   export let key: string
 </script>
