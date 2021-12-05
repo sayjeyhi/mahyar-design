@@ -2,6 +2,6 @@
   import "$styles/syntax.css"
 </script>
 
-<article>
+<article class="prose prose-lg">
   <slot />
 </article>
