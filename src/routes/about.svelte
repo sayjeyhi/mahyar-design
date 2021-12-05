@@ -64,16 +64,15 @@
           As a frontend developer, I focus on solving problems. Putting an emphasis on loyalty and
           honesty with clients and fellow team members. Passionate about the JAMstack, I strive for
           intuitiveness in all the work that I do, doing everything that I can to make users'
-          experiences smooth, easy, and comfortable.
+          experiences smooth, easy, and also fun.
         </strong>
         <p>
           I work with both React.js and Svelte regularly, and try to use these tools to the best of
-          my ability in order to bring my clients' UI visions to life. My preferred CSS preprocesor
-          is Sass, and my ability to style the pages and platforms that I develops is noteworthy, my
-          technical skills complemented nicely by my fashionable eye. Considering at all times what
-          will make interfaces attractive and what will make them efficient, I try to develop in a
-          way that plays to users' expectations – while also surprising them pleasantly with unique
-          and different ideas.
+          my ability in order to bring my clients' UI visions to life. My ability to style the pages
+          and platforms that I develops is noteworthy, my technical skills complemented nicely by my
+          fashionable eye. Considering at all times what will make interfaces attractive and what
+          will make them efficient, I try to develop in a way that plays to users' expectations –
+          while also surprising them pleasantly with unique and different ideas.
         </p>
       </div>
     </div>
