@@ -8,18 +8,14 @@
 
 code[class*="language-"],
 pre[class*="language-"] {
-  color: #fb44e3;
-  text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+  color: #ffba02;
+  text-shadow: 0 0 2px #100c0f, 0 0 5px #ffba0230, 0 0 10px #fff3;
   background: none;
-  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  font-size: 1em;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
-  line-height: 1.5;
-
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
@@ -32,8 +28,6 @@ pre[class*="language-"] {
 
 /* Code blocks */
 pre[class*="language-"] {
-  padding: 1em;
-  margin: 0.5em 0;
   overflow: auto;
 }
 
@@ -114,7 +108,8 @@ pre[class*="language-"] {
 .token.attr-value,
 .token.regex,
 .token.variable {
-  color: #ffba02;
+  color: #f4eee4;
+  text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0595, 0 0 2px #f39f0595;
 }
 
 .token.operator,

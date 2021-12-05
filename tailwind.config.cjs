@@ -46,9 +46,43 @@ const config = {
           radial-gradient(circle at 60% 20%, ${theme("colors.secondary")}20, transparent 20%)
         `,
       }),
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            p: {
+              color: '#efebe9'
+            },
+            h1: {
+              color: '#ffffff'
+            },
+            h2: {
+              color: '#ffffff'
+            },
+            h3: {
+              color: '#ffffff'
+            },
+            h4: {
+              color: '#ffffff'
+            },
+            li: {
+              color: '#efebe9'
+            },
+            a: {
+              color: theme("colors.primary"),
+              textDecoration: "none",
+              '&:hover': {
+                textDecoration: "initial",
+              },
+            },
+            pre: {
+              color: "none",
+            }
+          },
+        },
+      }),
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 }
 
 module.exports = config
