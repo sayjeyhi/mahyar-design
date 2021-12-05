@@ -2,7 +2,7 @@
   import { page } from "$app/stores"
 </script>
 
-<header class="bg-background--faded p-4 flex justify-center">
+<header class="bg-background p-4 flex justify-center">
   <nav class="flex justify-center">
     <ul class="relative p-0 m-0 flex justify-center items-center bg-contain h-12 list-none">
       <li class:active={$page.path === "/"}><a sveltekit:prefetch href="/">Home</a></li>
@@ -10,28 +10,28 @@
       <li class:active={$page.path === "/projects"}>
         <a sveltekit:prefetch href="/projects">Projects</a>
       </li>
-      <li class:active={$page.path === "/journal"}>
+      <li class:active={$page.path.includes("/journal")}>
         <a sveltekit:prefetch href="/journal">Journal</a>
       </li>
     </ul>
   </nav>
 </header>
 
-<style>
+<style lang="postcss">
   li {
     position: relative;
     height: 100%;
-  }
 
-  li.active::before {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    bottom: 0;
-    left: calc(50% - 8px);
-    border: 8px solid transparent;
-    @apply border-b-primary;
+    &.active::before {
+      content: "";
+      width: 0;
+      height: 0;
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 8px);
+      border: 8px solid transparent;
+      @apply border-b-primary;
+    }
   }
 
   nav a {
@@ -46,9 +46,9 @@
     letter-spacing: 0.1em;
     text-decoration: none;
     transition: color 0.2s linear;
-  }
 
-  a:hover {
-    @apply text-primary;
+    &:hover {
+      @apply text-primary;
+    }
   }
 </style>
