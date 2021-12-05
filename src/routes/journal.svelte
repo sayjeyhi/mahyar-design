@@ -43,8 +43,8 @@
             </p>
             <p class="text-xl font-semibold text-gray-100">{title}</p>
             <p class="mt-3 text-base text-gray-500">{description}</p>
+            <p class="mt-3">Read full story</p>
           </a>
-          <div class="mt-3">Read full story</div>
         </div>
       {/each}
     </div>
