@@ -3,7 +3,7 @@ import { slugFromPath } from "$utils/journal"
 /** @type {import('@sveltejs/kit').RequestHandler} */
 export async function get({ query }) {
   /* @ts-expect-error No type for import meta is currently available */
-  const modules: Record<string, () => any> = import.meta.glob("./*.{md,svx,svelte.md}")
+  const modules: Record<string, () => any> = import.meta.glob("./posts/*.{md,svx,svelte.md}")
 
   const postPromises = []
   const limit = Number(query.get("limit") ?? Infinity)

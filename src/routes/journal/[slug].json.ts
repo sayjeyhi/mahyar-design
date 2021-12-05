@@ -5,7 +5,7 @@ import { slugFromPath } from "$utils/journal"
  */
 export async function get({ params }) {
   /* @ts-expect-error No type for import meta is currently available */
-  const modules: Record<string, () => any> = import.meta.glob(`./*.{md,svx,svelte.md}`)
+  const modules: Record<string, () => any> = import.meta.glob(`./posts/*.{md,svx,svelte.md}`)
 
   let match: [string, () => { metadata: string }]
 
