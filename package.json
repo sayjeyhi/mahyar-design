@@ -38,6 +38,7 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.3.0",
     "@tailwindcss/typography": "^0.4.1"
   }
 }

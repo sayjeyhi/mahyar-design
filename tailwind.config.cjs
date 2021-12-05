@@ -52,6 +52,9 @@ const config = {
             p: {
               color: '#efebe9'
             },
+            strong: {
+              color: '#efebe9'
+            },
             h1: {
               color: '#ffffff'
             },
@@ -82,7 +85,10 @@ const config = {
       }),
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/aspect-ratio"),
+  ],
 }
 
 module.exports = config
