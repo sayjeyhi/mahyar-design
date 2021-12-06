@@ -24,6 +24,7 @@ const config = {
         secondary: "#FFBA02",
         background: "#030E29",
         "background--faded": "#101254",
+        "faded": "#c6c7c950",
         teal: colors.teal,
         cyan: colors.cyan,
         brown: {

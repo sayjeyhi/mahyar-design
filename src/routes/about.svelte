@@ -39,7 +39,7 @@
             height={20}
             patternUnits="userSpaceOnUse"
           >
-            <rect x={0} y={0} width={4} height={4} class="text-gray-800" fill="currentColor" />
+            <rect x={0} y={0} width={4} height={4} class="text-faded" fill="currentColor" />
           </pattern>
         </defs>
         <rect width={404} height={384} fill="url(#square-pattern)" />
