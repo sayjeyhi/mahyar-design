@@ -1,4 +1,8 @@
 <script context="module" lang="ts">
+  import { dev } from "$app/env"
+
+  export const hydrate = dev
+  export const router = true
   export const prerender = true
 </script>
 

@@ -1,8 +1,8 @@
 <script context="module">
-  import { browser, dev } from "$app/env"
+  import { dev } from "$app/env"
 
   export const hydrate = dev
-  export const router = browser
+  export const router = true
   export const prerender = true
 </script>
 

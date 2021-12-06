@@ -1,8 +1,8 @@
 <script context="module">
-  import { browser, dev } from "$app/env"
+  import { dev } from "$app/env"
 
   export const hydrate = dev
-  export const router = browser
+  export const router = true
   export const prerender = true
 
   /**
@@ -37,7 +37,7 @@
     <div class="mt-6 pt-10 grid gap-16 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-12">
       {#each posts as { slug, title, description, date }}
         <div>
-          <a href={`/journal/posts/${slug}`} class="mt-2 block group">
+          <a sveltekit:prefetch href={`/journal/posts/${slug}`} class="mt-2 block group">
             <p class="text-sm text-gray-500 mb-1">
               <time dateTime={date}>{new Date(date).toLocaleDateString("sv-SE")}</time>
             </p>

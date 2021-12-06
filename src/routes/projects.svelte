@@ -1,6 +1,11 @@
 <script lang="ts">
   import { scale } from "svelte/transition"
   import { projects } from "$stores/projects"
+  import { dev } from "$app/env"
+
+  export const hydrate = dev
+  export const router = true
+  export const prerender = true
 </script>
 
 <svelte:head>
