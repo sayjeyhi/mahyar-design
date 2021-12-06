@@ -32,7 +32,7 @@
       >
         <defs>
           <pattern
-            id="de316486-4a29-4312-bdfc-fbce2132a2c1"
+            id="square-pattern"
             x={0}
             y={0}
             width={20}
@@ -42,7 +42,7 @@
             <rect x={0} y={0} width={4} height={4} class="text-gray-800" fill="currentColor" />
           </pattern>
         </defs>
-        <rect width={404} height={384} fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)" />
+        <rect width={404} height={384} fill="url(#square-pattern)" />
       </svg>
       <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
         <figure>
