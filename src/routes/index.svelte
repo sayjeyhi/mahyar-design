@@ -1,7 +1,5 @@
 <script context="module" lang="ts">
-  import { dev } from "$app/env"
-
-  export const hydrate = dev
+  export const hydrate = true
   export const router = true
   export const prerender = true
 </script>
