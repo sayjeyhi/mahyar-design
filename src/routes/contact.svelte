@@ -37,7 +37,7 @@
                 name="first-name"
                 id="first-name"
                 autocomplete="given-name"
-                class="py-3 px-4 block w-full shadow-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md"
+                class="py-3 px-4 text-black block w-full shadow-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md"
               />
             </div>
           </div>
@@ -49,7 +49,7 @@
                 name="email"
                 type="email"
                 autocomplete="email"
-                class="py-3 px-4 block w-full shadow-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md"
+                class="py-3 px-4 block text-black w-full shadow-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md"
               />
             </div>
           </div>
@@ -60,7 +60,7 @@
                 id="message"
                 name="message"
                 rows="4"
-                class="py-3 px-4 block w-full shadow-sm focus:ring-primary focus:border-primary border border-gray-300 rounded-md"
+                class="py-3 px-4 block text-black w-full shadow-sm focus:ring-primary focus:border-primary border border-gray-300 rounded-md"
               />
             </div>
           </div>
