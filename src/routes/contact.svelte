@@ -1,7 +1,3 @@
-<script context="module">
-  export const prerender = true
-</script>
-
 <script lang="ts">
   export const hydrate = true
   export const router = true
