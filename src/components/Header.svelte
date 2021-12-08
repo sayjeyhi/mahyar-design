@@ -7,9 +7,11 @@
     <ul class="relative p-0 m-0 flex justify-center items-center bg-contain h-12 list-none">
       <li class:active={$page.path === "/"}><a sveltekit:prefetch href="/">Home</a></li>
       <li class:active={$page.path === "/about"}><a sveltekit:prefetch href="/about">About</a></li>
-      <li class:active={$page.path === "/contact"}><a sveltekit:prefetch href="/contact">Contact</a></li>
       <li class:active={$page.path.includes("/journal")}>
         <a sveltekit:prefetch href="/journal">Journal</a>
+      </li>
+      <li class:active={$page.path === "/contact"}>
+        <a sveltekit:prefetch href="/contact">Contact</a>
       </li>
     </ul>
   </nav>
