@@ -5,7 +5,7 @@ const config = {
     dashes: "oldschool",
   },
   highlight: {
-    alias: { js: "javascript" }
+    alias: { js: "javascript" },
   },
   remarkPlugins: [],
   rehypePlugins: [],
