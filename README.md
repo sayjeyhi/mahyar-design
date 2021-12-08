@@ -30,7 +30,6 @@ npm run dev
 ```bash
 # Build for production
 npm run build
-# Serve /build
 ```
 
 ## Publishing
