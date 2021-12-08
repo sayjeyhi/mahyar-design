@@ -9,6 +9,53 @@
   <meta name="description" content="Here you will find some featured projects of mine." />
 </svelte:head>
 
+<div class="hidden 2xl:block">
+  <svg
+    class="absolute left-full transform -translate-x-full -translate-y-32"
+    width="404"
+    height="404"
+    fill="none"
+    viewBox="0 0 404 404"
+    aria-hidden="true"
+  >
+    <defs>
+      <pattern
+        id="85737c0e-0916-41d7-917f-596dc7edfa27"
+        x="0"
+        y="0"
+        width="20"
+        height="20"
+        patternUnits="userSpaceOnUse"
+      >
+        <rect x="0" y="0" width="4" height="4" class="text-faded" fill="currentColor" />
+      </pattern>
+    </defs>
+    <rect width="404" height="404" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
+  </svg>
+  <svg
+    class="absolute right-full bottom-0 transform translate-x-full -translate-y-1/2"
+    width="404"
+    height="404"
+    fill="none"
+    viewBox="0 0 404 404"
+    aria-hidden="true"
+  >
+    <defs>
+      <pattern
+        id="85737c0e-0916-41d7-917f-596dc7edfa27"
+        x="0"
+        y="0"
+        width="20"
+        height="20"
+        patternUnits="userSpaceOnUse"
+      >
+        <rect x="0" y="0" width="4" height="4" class="text-faded" fill="currentColor" />
+      </pattern>
+    </defs>
+    <rect width="404" height="404" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
+  </svg>
+</div>
+
 <div>
   <h1 class="mb-6">Contact</h1>
   <p class="mt-4 text-lg leading-6 text-white">
@@ -24,7 +71,7 @@
     >
       <input type="hidden" name="form-name" value="contact" />
       <input type="hidden" name="bot-field" />
-      <div class="flex gap-8">
+      <div class="flex gap-8 flex-col sm:flex-row">
         <div class="flex-grow">
           <label for="first-name" class="block text-sm font-medium text-gray-500">Name</label>
           <div class="mt-1">
