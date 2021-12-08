@@ -23,7 +23,7 @@
         <form
           name="contact"
           method="post"
-          netlify
+          data-netlify="true"
           netlify-honeypot="bot-field"
           class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
         >
