@@ -33,6 +33,7 @@
   const gradientColors = []
   const updateColorDistanceThreshold = 400
   const colorStopResolution = 200
+  let loaded = false
   let scale = 1
   let geoMap: GeoMap = []
   let finishedDrawing = false
@@ -201,18 +202,21 @@
   }
 
   onMount(() => {
-    const canvas = document.querySelector(".hero-canvas") as HTMLCanvasElement
+    loaded = true
 
-    scale = window.devicePixelRatio
-    initCanvas(canvas)
+    setTimeout(() => {
+      const canvas = document.querySelector("#hero-canvas") as HTMLCanvasElement
+      scale = window.devicePixelRatio
+      initCanvas(canvas)
 
-    canvas.addEventListener("mousemove", handleMouseMove)
-    window.addEventListener("resize", () => setResolution(canvas))
+      canvas.addEventListener("mousemove", handleMouseMove)
+      window.addEventListener("resize", () => setResolution(canvas))
+    }, 1)
   })
 </script>
 
 <div class="hero fullWidth">
-  <canvas class="hero-canvas" />
+  <canvas id="hero-canvas" class={loaded ? "opacity-100" : "opacity-0"} />
   <div class="hero-content">
     <h2 class="prefix">Welcome to</h2>
     <h1 class="title">
@@ -237,13 +241,14 @@
     }
   }
 
-  .hero-canvas {
+  #hero-canvas {
     display: inline-block;
     height: 100%;
     width: 100%;
     position: absolute;
     left: 0;
     top: 0;
+    transition: opacity 1.5s ease-in;
   }
 
   .hero-content {
