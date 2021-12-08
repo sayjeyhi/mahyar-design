@@ -21,7 +21,8 @@
   }
 </script>
 
-<script>
+<script lang="ts">
+  import Patterns from "$components/Patterns.svelte"
   export let posts
 </script>
 
@@ -29,6 +30,8 @@
   <title>Journal - loke.dev</title>
   <meta name="description" content="This is the short story of Loke" />
 </svelte:head>
+
+<Patterns variant="2" />
 
 <div class="content">
   <h1 class="mb-6">Let's learn together!</h1>

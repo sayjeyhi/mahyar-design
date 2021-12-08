@@ -4,43 +4,16 @@
   export const prerender = true
 </script>
 
+<script lang="ts">
+  import Patterns from "$components/Patterns.svelte"
+</script>
+
 <svelte:head>
   <title>Contact - loke.dev</title>
   <meta name="description" content="Here you will find some featured projects of mine." />
 </svelte:head>
 
-<div class="hidden 2xl:block">
-  <svg
-    class="absolute left-full transform -translate-x-full -translate-y-32"
-    width="404"
-    height="404"
-    fill="none"
-    viewBox="0 0 404 404"
-    aria-hidden="true"
-  >
-    <defs>
-      <pattern id="pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-        <rect x="0" y="0" width="4" height="4" class="text-faded" fill="currentColor" />
-      </pattern>
-    </defs>
-    <rect width="404" height="404" fill="url(#pattern)" />
-  </svg>
-  <svg
-    class="absolute right-full bottom-0 transform translate-x-full -translate-y-1/2"
-    width="404"
-    height="404"
-    fill="none"
-    viewBox="0 0 404 404"
-    aria-hidden="true"
-  >
-    <defs>
-      <pattern id="pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-        <rect x="0" y="0" width="4" height="4" class="text-faded" fill="currentColor" />
-      </pattern>
-    </defs>
-    <rect width="404" height="404" fill="url(#pattern)" />
-  </svg>
-</div>
+<Patterns />
 
 <div>
   <h1 class="mb-6">Contact</h1>
