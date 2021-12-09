@@ -1,8 +1,11 @@
 <script lang="ts">
+  import splitbee from "@splitbee/web"
   import Header from "$components/Header.svelte"
   import Footer from "$components/Footer.svelte"
 
   import "$styles/app.css"
+
+  splitbee.init()
 </script>
 
 <Header />
