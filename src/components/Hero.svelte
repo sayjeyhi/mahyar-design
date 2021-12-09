@@ -28,8 +28,8 @@
   }
 
   const defaultSquareColor = "#c6c7c950"
-  const squareSize = 20
-  const squareMargin = 50
+  const squareSize = 15
+  const squareMargin = 45
   const gradientColors = []
   const updateColorDistanceThreshold = 400
   const colorStopResolution = 200
