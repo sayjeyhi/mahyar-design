@@ -5,7 +5,7 @@ export const projects = writable([])
 
 const fetchProjects = async () => {
   const url =
-    "https://api.github.com/users/lokecarlsson/repos?sort=updated&direction=desc&per_page=100&type=public"
+    "https://api.github.com/users/loke-dev/repos?sort=updated&direction=desc&per_page=100&type=public"
   const response = await fetch(url, {
     headers: {
       Authorization: `token ${variables.githubToken}`,
