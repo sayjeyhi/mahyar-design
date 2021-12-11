@@ -24,13 +24,16 @@ const config = {
         secondary: "#FFBA02",
         background: "#030E29",
         "background--faded": "#101254",
-        "faded": "#c6c7c950",
+        faded: "#c6c7c950",
         teal: colors.teal,
         cyan: colors.cyan,
         brown: {
           DEFAULT: "#795548",
           50: "#efebe9",
         },
+      },
+      screens: {
+        "3xl": "1720px",
       },
       lineHeight: {
         hero: "4.5rem",
@@ -51,45 +54,42 @@ const config = {
         DEFAULT: {
           css: {
             p: {
-              color: '#efebe9'
+              color: "#efebe9",
             },
             strong: {
-              color: '#efebe9'
+              color: "#efebe9",
             },
             h1: {
-              color: '#ffffff'
+              color: "#ffffff",
             },
             h2: {
-              color: '#ffffff'
+              color: "#ffffff",
             },
             h3: {
-              color: '#ffffff'
+              color: "#ffffff",
             },
             h4: {
-              color: '#ffffff'
+              color: "#ffffff",
             },
             li: {
-              color: '#efebe9'
+              color: "#efebe9",
             },
             a: {
               color: theme("colors.primary"),
               textDecoration: "none",
-              '&:hover': {
+              "&:hover": {
                 textDecoration: "initial",
               },
             },
             pre: {
               color: "none",
-            }
+            },
           },
         },
       }),
     },
   },
-  plugins: [
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/aspect-ratio"),
-  ],
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/aspect-ratio")],
 }
 
 module.exports = config

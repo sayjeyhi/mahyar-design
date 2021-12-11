@@ -13,7 +13,7 @@
   }
 </script>
 
-<div class="hidden 2xl:block">
+<div class="hidden 3xl:block">
   <svg
     class={variants[variant].first}
     width="404"
