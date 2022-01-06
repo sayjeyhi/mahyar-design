@@ -16,8 +16,6 @@ const config = {
   ],
 
   kit: {
-    // hydrate the <div id="svelte"> element in src/app.html
-    target: "#svelte",
     prerender: {
       crawl: true,
       enabled: true,
@@ -26,6 +24,12 @@ const config = {
     },
     adapter: netlify(),
     vite: {
+      test: {
+        environment: "jsdom",
+        coverage: {
+          reporter: ["text", "json", "html"],
+        },
+      },
       resolve: {
         alias: {
           $components: resolve("./src/components"),
