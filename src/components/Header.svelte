@@ -5,12 +5,14 @@
 <header class="bg-background p-4 flex justify-center">
   <nav class="flex justify-center">
     <ul class="relative p-0 m-0 flex justify-center items-center bg-contain h-12 list-none">
-      <li class:active={$page.path === "/"}><a sveltekit:prefetch href="/">Home</a></li>
-      <li class:active={$page.path === "/about"}><a sveltekit:prefetch href="/about">About</a></li>
-      <li class:active={$page.path.includes("/journal")}>
+      <li class:active={$page.url.pathname === "/"}><a sveltekit:prefetch href="/">Home</a></li>
+      <li class:active={$page.url.pathname === "/about"}>
+        <a sveltekit:prefetch href="/about">About</a>
+      </li>
+      <li class:active={$page.url.pathname.includes("/journal")}>
         <a sveltekit:prefetch href="/journal">Journal</a>
       </li>
-      <li class:active={$page.path === "/contact"}>
+      <li class:active={$page.url.pathname === "/contact"}>
         <a sveltekit:prefetch href="/contact">Contact</a>
       </li>
     </ul>
