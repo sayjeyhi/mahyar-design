@@ -3,7 +3,6 @@
 
   export const hydrate = dev
   export const router = true
-  export const prerender = true
 </script>
 
 <svelte:head>
