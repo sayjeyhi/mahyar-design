@@ -16,6 +16,12 @@ const config = {
   ],
 
   kit: {
+    prerender: {
+      crawl: true,
+      enabled: true,
+      onError: "continue",
+      entries: ["*"],
+    },
     adapter: netlify(),
     vite: {
       test: {
