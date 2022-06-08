@@ -67,7 +67,7 @@
         <strong>
           I've worked professionally with JavaScript for about {yearsOfWork} years now, across the full
           stack with a focus on frontend development. I have worked with several projects for mobile
-          but mostly for the web in different sectors, primarily with e-commerce.
+          but mostly for the web in different sectors, primarily e-commerce.
         </strong>
         <p>
           Some of my go-to languages and tools for web development: React, React Native, Typescript,
