@@ -6,6 +6,10 @@
   export const prerender = true
 </script>
 
+<script>
+  const yearsOfWork = new Date().getFullYear() - new Date("2017").getFullYear()
+</script>
+
 <svelte:head>
   <title>About - loke.dev</title>
   <meta name="description" content="This is the short story of Loke" />
@@ -61,18 +65,18 @@
     <div class="mt-8 lg:mt-0">
       <div class="prose mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
         <strong>
-          As a frontend developer, I focus on solving problems. Putting an emphasis on loyalty and
-          honesty with clients and fellow team members. Passionate about the JAMstack, I strive for
-          intuitiveness in all the work that I do, doing everything that I can to make users'
-          experiences smooth, easy, and also fun.
+          I've worked professionally with JavaScript for about {yearsOfWork} years now, across the full
+          stack with a focus on frontend development. I have worked with several projects for mobile
+          but mostly for the web in different sectors, primarily with e-commerce.
         </strong>
         <p>
-          I work with both React.js and Svelte regularly, and try to use these tools to the best of
-          my ability in order to bring my clients' UI visions to life. My ability to style the pages
-          and platforms that I develops is noteworthy, my technical skills complemented nicely by my
-          fashionable eye. Considering at all times what will make interfaces attractive and what
-          will make them efficient, I try to develop in a way that plays to users' expectations –
-          while also surprising them pleasantly with unique and different ideas.
+          Some of my go-to languages and tools for web development: React, React Native, Typescript,
+          Nextjs, Nodejs, Prisma, Postgres, Docker, SASS, Tailwind, Cypress.
+        </p>
+        <p>
+          The Web today is mind blowing and I can't wait to see what the future hold for it, that's
+          why I want to be part of it, to make it the best it can be, even though it might be only a
+          tiny piece of the whole puzzle.
         </p>
       </div>
     </div>
