@@ -1,13 +1,16 @@
 <script lang="ts">
   import { onMount } from "svelte"
   import splitbee from "@splitbee/web"
+  import { dev } from "$app/env"
   import Header from "$components/Header.svelte"
   import Footer from "$components/Footer.svelte"
 
   import "$styles/app.css"
 
   onMount(() => {
-    splitbee.init()
+    if (!dev) {
+      splitbee.init()
+    }
   })
 </script>
 
