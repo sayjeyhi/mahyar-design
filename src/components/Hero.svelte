@@ -207,11 +207,14 @@
     setTimeout(() => {
       const canvas = document.querySelector("#hero-canvas") as HTMLCanvasElement
       scale = window.devicePixelRatio
+
+      if (!canvas) return
+
       initCanvas(canvas)
 
       canvas.addEventListener("mousemove", handleMouseMove)
       window.addEventListener("resize", () => setResolution(canvas))
-    }, 1)
+    }, 200)
   })
 </script>
 
