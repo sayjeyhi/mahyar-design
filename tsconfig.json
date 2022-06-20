@@ -1,5 +1,5 @@
 {
-  "extends": "@tsconfig/svelte/tsconfig.json",
+  "extends": "./.svelte-kit/tsconfig.json",
   "compilerOptions": {
     "moduleResolution": "node",
     "module": "es2020",
@@ -20,7 +20,9 @@
       "$stores/*": ["src/stores/*"],
       "$styles/*": ["src/styles/*"],
       "$utils/*": ["src/utils/*"],
-      "$src/*": ["src/*"]
+      "$src/*": ["src/*"],
+      "$lib":["src/lib"],
+      "$lib/*":["src/lib/*"]
     }
   },
   "include": [
