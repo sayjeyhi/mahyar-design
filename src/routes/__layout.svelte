@@ -9,7 +9,10 @@
 
   onMount(() => {
     if (!dev) {
-      splitbee.init()
+      splitbee.init({
+        scriptUrl: "/bee.js",
+        apiUrl: "/_hive",
+      })
     }
   })
 </script>
