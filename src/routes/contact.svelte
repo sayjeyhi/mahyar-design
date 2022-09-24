@@ -10,7 +10,7 @@
 
 <svelte:head>
   <title>Contact - loke.dev</title>
-  <meta name="description" content="Here you will find some featured projects of mine." />
+  <meta name="description" content="Want to get in touch, you will find the best way here." />
 </svelte:head>
 
 <Patterns />
