@@ -12,7 +12,7 @@
 
 <svelte:head>
   <title>About - loke.dev</title>
-  <meta name="description" content="This is the short story of Loke" />
+  <meta name="description" content="This is the short story of Loke." />
 </svelte:head>
 
 <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
