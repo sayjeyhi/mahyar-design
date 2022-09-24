@@ -40,6 +40,8 @@
               id="first-name"
               autocomplete="given-name"
               class="py-3 px-4 text-black block w-full shadow-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md"
+              required
+              minlength="2"
             />
           </div>
         </div>
@@ -52,6 +54,8 @@
               type="email"
               autocomplete="email"
               class="py-3 px-4 block text-black w-full shadow-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md"
+              minlength="5"
+              required
             />
           </div>
         </div>
@@ -64,6 +68,8 @@
             name="message"
             rows="8"
             class="py-3 px-4 block text-black w-full shadow-sm focus:ring-primary focus:border-primary border border-gray-300 rounded-md"
+            minlength="5"
+            required
           />
         </div>
       </div>
