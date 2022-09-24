@@ -10,7 +10,10 @@
 
 <svelte:head>
   <title>Loke.dev</title>
-  <meta name="description" content="Loke.dev is the personal website for Loke Carlsson" />
+  <meta
+    name="description"
+    content="Loke is a frontend developer based in Lund, Sweden. Read more about me or what services I can help you with."
+  />
 </svelte:head>
 
 <section class="">
