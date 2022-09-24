@@ -28,7 +28,7 @@
 
 <svelte:head>
   <title>Journal - loke.dev</title>
-  <meta name="description" content="This is the short story of Loke" />
+  <meta name="description" content="Some of my written down thought, guides and blog posts" />
 </svelte:head>
 
 <Patterns variant="2" />
