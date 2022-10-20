@@ -3,10 +3,10 @@
 </script>
 
 <svelte:head>
-  <meta name="og:title" content="Loke.dev" />
+  <meta name="og:title" content="Mahyar Mesbah [dot] Design" />
   <meta
     name="og:description"
-    content="Loke is a frontend developer based in Lund, Sweden. Read more about me or what services I can help you with."
+    content="I'm Mahyar Mesbah, a passionate designer based in Tehran, Iran. Read more about me or what services I can help you with."
   />
 </svelte:head>
 

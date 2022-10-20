@@ -221,9 +221,9 @@
 <div class="hero fullWidth">
   <canvas id="hero-canvas" class={loaded ? "opacity-100" : "opacity-0"} />
   <div class="hero-content">
-    <h2 class="prefix">Welcome to</h2>
+    <h2 class="prefix">I'm</h2>
     <h1 class="title">
-      Loke <span>&mdash;</span><br /><span>&mdash;</span> Dev
+      Mahyar <span>&mdash;</span><br /><span>&mdash;</span> Mesbah
     </h1>
   </div>
 </div>

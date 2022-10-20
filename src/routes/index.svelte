@@ -9,10 +9,10 @@
 </script>
 
 <svelte:head>
-  <title>Loke.dev</title>
+  <title>Mahyar Mesbah [dot] Design</title>
   <meta
     name="description"
-    content="Loke is a frontend developer based in Lund, Sweden. Read more about me or what services I can help you with."
+    content="I'm Mahyar Mesbah, a passionate designer based in Tehran, Iran. Read more about me or what services I can help you with."
   />
 </svelte:head>
 
@@ -21,10 +21,9 @@
 
   <div class="flex flex-col items-center text-center mt-20">
     <p>
-      Contact me via <a href="mailto:hello@loke.dev">Email</a> or find me on other medias:
-      <a href="https://github.com/loke-dev">Github</a>
-      | <a href="https://www.linkedin.com/in/lokecarlsson/">Linkedin</a>
-      | <a href="https://twitter.com/loke_dev">Twitter</a>
+      Contact me via <a href="mailto:mahyar.mesbah1994@gmail.com">Email</a> or find me on other medias:
+      <a sveltekit:prefetch href="/journal">My Portfolio page</a>
+      | <a href="https://www.linkedin.com/in/mahyar-mesbah-2ab6a6233/">Linkedin</a>
     </p>
   </div>
 </section>
