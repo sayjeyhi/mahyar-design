@@ -1,4 +1,4 @@
-import{S as ns,i as ts,s as ps,e as p,t as u,k as l,c as o,a as e,h as d,d as a,m as r,b as E,g as t,H as c,n as U}from"../../../chunks/index-a47cba96.js";function os(J){let i,S,x,w,L,D,f,K=`<code class="language-js">    <span class="token operator">&lt;</span>form
+import{S as ns,i as ts,s as ps,e as p,t as u,k as l,c as o,a as e,h as d,d as a,m as r,b as E,g as t,H as c,n as U}from"../../../chunks/index-6a9cc4af.js";function os(J){let i,S,x,w,L,D,f,K=`<code class="language-js">    <span class="token operator">&lt;</span>form
         name<span class="token operator">=</span><span class="token string">"contact"</span>
         method<span class="token operator">=</span><span class="token string">"post"</span>
         v<span class="token operator">-</span>on<span class="token operator">:</span>submit<span class="token punctuation">.</span>prevent<span class="token operator">=</span><span class="token string">"handleSubmit"</span>
